@@ -31,7 +31,7 @@ h1 {
   a:hover {
       color:rgb(163, 159, 159);
   }
-  .copyrightlink {
+  .footer-box:a {
       color:white;
   }
   li {
