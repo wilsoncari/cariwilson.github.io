@@ -1,5 +1,5 @@
 .header {
-    background-color:#CBB9A8;
+    background-color:#5A605A;
     padding:30px;
     border-radius:3px 3px 3px 3px;
 }
@@ -13,7 +13,7 @@ h1 {
       font-family: "Arial", "helvetica", sans-serif;
   }
   .footer{
-      background-color:#CBB9A8;
+      background-color:#5A605A;
       padding:25px;
       border-radius:3px 3px 3px 3px;
   }
@@ -29,7 +29,7 @@ h1 {
     text-align:center;
   }
   a:hover {
-      color:rgb(82, 94, 89);
+      color:rgb(163, 159, 159);
   }
   .footer-box:a {
       color:white;
