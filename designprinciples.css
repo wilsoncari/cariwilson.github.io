@@ -14,7 +14,8 @@ h1 {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     color: white;
     font-size:3em;
-    padding:20px;
+    margin-top:20px;
+    margin-left:20px;
 }
 h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -27,7 +28,7 @@ img {
 }
 a {
     color:white;
-    margin-bottom:500px;
+    margin-bottom:1500px;
     margin-left:20px;
 }
 a:hover {
