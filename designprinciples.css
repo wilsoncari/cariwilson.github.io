@@ -25,6 +25,7 @@ img {
 }
 a {
     color:white;
+    margin-bottom:20px;
 }
 a:hover {
     color:rgb(138, 141, 141);
