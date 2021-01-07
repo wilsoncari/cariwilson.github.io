@@ -19,3 +19,9 @@ p {
 img {
     width:200px;
 }
+a {
+    color:white;
+}
+a:hover {
+    color:rgb(138, 141, 141);
+}
