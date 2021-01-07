@@ -1,8 +1,10 @@
 .banner {
-    background-color: rgb(211, 199, 96);
+    background-color: rgb(17, 17, 16);
 }
 h1 {
-    font-family: cursive;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size:3em;
 }
 h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
