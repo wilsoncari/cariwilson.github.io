@@ -2,9 +2,12 @@
     background-color: rgb(17, 17, 16);
     background-origin: padding-box;
 }
-main {
+.main-content {
 display:grid;
 grid-template-columns: 3;
+}
+.negspace {
+grid-template-columns: 1fr 1fr;
 }
 h1 {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
