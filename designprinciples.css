@@ -1,6 +1,6 @@
 .banner {
     background-color: rgb(17, 17, 16);
-    line-height: 100px;
+    line-height: 5em;
 }
 .main-content {
 display:grid;
@@ -8,6 +8,7 @@ grid-template-columns: 3;
 }
 .negspace {
 grid-template-columns: 1fr 1fr;
+border: black solid 3px;
 }
 h1 {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
