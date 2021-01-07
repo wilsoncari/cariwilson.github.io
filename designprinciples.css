@@ -48,6 +48,7 @@ h1 {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     color: white;
     font-size:3em;
+    padding:20px;
     
 }
 h2 {
@@ -65,8 +66,7 @@ img {
 }
 a {
     color:white;
-   
-    margin-left:20px;
+    margin-left:25px;
 }
 a:hover {
     color:rgb(138, 141, 141);
