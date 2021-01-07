@@ -1,6 +1,6 @@
 .banner {
     background-color: rgb(17, 17, 16);
-    background-origin: padding-box;
+    padding:20px;
 }
 .main-content {
 display:grid;
