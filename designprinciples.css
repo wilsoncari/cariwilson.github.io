@@ -7,7 +7,7 @@ display:grid;
 grid-template-columns: 3;
 }
 .negspace {
-grid-template-columns: 1fr 1fr;
+grid-template-columns: 1fr;
 border: black solid 3px;
 }
 h1 {
@@ -27,7 +27,7 @@ img {
 }
 a {
     color:white;
-    margin-bottom:50px;
+    margin-bottom:500px;
     margin-left:20px;
 }
 a:hover {
