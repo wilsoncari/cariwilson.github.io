@@ -16,7 +16,9 @@
 .negspace {
     grid-column-start: 1;
     grid-column-end: 2;
-    border: black solid 1px;
+    border-left: black solid 1px;
+    border-bottom: black solid 1px;
+    border-right: black solid 1px;
     grid-row-start: 1;
     grid-row-end: 4;
     padding:20px;
