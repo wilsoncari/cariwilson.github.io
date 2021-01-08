@@ -80,6 +80,8 @@ a:hover {
     .proximity{
         border-left:1px solid black;
     }
+    .visual-heirarchy {
+        border-left: none;  
     }
 
     /*large screen view**/
