@@ -2,5 +2,11 @@
     img {
         float:right;
     }
-    
-}
+    .main-content {
+        grid-template-columns: 1fr 1fr;
+        } 
+        
+    .proximity {
+            grid-row: column start 2fr;
+        }
+    }
