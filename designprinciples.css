@@ -49,28 +49,35 @@ h1 {
     color: white;
     font-size:3em;
     padding:20px;
-    
+    margin-left:50px;
 }
+
 h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 img {
     width:200px;
     padding:10px;
 }
+
 a {
     color:white;
     margin-left:25px;
 }
+
 a:hover {
     color:rgb(138, 141, 141);
 }
+
 .websites {
     color:black;
 }
