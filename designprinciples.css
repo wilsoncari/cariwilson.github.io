@@ -1,9 +1,7 @@
 .banner {
     background-color: rgb(17, 17, 16);
     line-height: 5em;
-    margin-left: 100px;
-    margin-right: 100px;
-    
+   
 }
 .main-content {
     display:grid;
@@ -83,6 +81,10 @@ a:hover {
     .visual-heirarchy {
         border-left: none;  
     }
+    .banner {
+        grid-column: 1 / span 2;
+    }
+}
 
     /*large screen view**/
 @media only screen and (min-width:60em) {
@@ -94,6 +96,9 @@ a:hover {
     }
     .visual-heirarchy {
         border-left: none;  
+    }
+    .banner {
+        grid-column: 1 / span 3;
     }
     }
     
