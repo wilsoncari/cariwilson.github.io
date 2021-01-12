@@ -1,3 +1,7 @@
+html {
+    max-width: 960px;
+    margin-left:150px;
+}
 .nav-links {
     display:flex;
     flex-direction:column;
@@ -7,9 +11,10 @@ img {
 }
 nav {
     background-color:#66756A;
-    padding:20px;
+    padding:10px;
     text-decoration: none;
-    font-size: .5em;
+    font-size: 1.25em;
+    font-family: 'Nunito', Verdana, sans-serif;
 }
 a {
 padding:20px;
@@ -23,20 +28,42 @@ a:hover {
 .color-scheme-img {
     width:400px;
 }
+.color-hover{
+    font-family: "Poppins", Tahoma, sans-serif;
+    font-size:1.5em;
+}
 .color-hover:hover {
     color:#82A3A1;
 }
 .typo-ex {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Poppins", "Tahoma", sans-serif;
     color:white;
 }
 .typo-par {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Nunito', Verdana, sans-serif;
     color:white;
 }
 .typo-div {
     background-color:#313331;
     padding:20px;
+}
+h1 {
+    font-family:'Poppins', Tahoma, sans-serif;
+}
+h2 {
+    font-family:'Poppins', Tahoma, sans-serif;
+}
+h3 {
+    font-family:'Poppins', Tahoma, sans-serif;
+}
+p {
+    font-family: 'Nunito', Verdana, sans-serif;
+}
+ul {
+    font-family: 'Nunito', Verdana, sans-serif;
+}
+.nunito {
+    font-family: "nunito", Verdana, sans-serif;
 }
 @media only screen and (min-width:37.5em){
     .nav-links {
