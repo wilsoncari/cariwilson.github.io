@@ -1,3 +1,7 @@
+ul {
+    display:flex;
+    flex-direction:row;
+}
 img {
     width:200px;
 }
@@ -34,8 +38,8 @@ a:hover {
     padding:20px;
 }
 @media (min-width: 32.5em) {
-    nav {
-        display:flex;
+    ul {
+        flex-direction:column;
         flex-wrap:wrap;
     }
 }
