@@ -69,6 +69,9 @@ a:hover {
 .websites {
     color:black;
 }
+footer {
+    margin-left:20px;
+}
 
 /*medium screen view**/
 @media only screen and (min-width:37.5em) {
