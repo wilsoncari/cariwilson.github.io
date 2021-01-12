@@ -70,7 +70,10 @@ a:hover {
     color:black;
 }
 footer {
-    margin-left:20px;
+    margin-left:100px;
+    color:white;
+    background-color: black;
+    padding:20px;
 }
 
 /*medium screen view**/
