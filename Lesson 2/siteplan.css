@@ -30,3 +30,8 @@ a:hover {
     background-color:#313331;
     padding:20px;
 }
+@media (min-width: 32.5em) {
+    nav {
+        display:flex;
+    }
+}
