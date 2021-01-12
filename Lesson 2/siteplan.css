@@ -1,4 +1,5 @@
 .nav-links {
+    display: -webkit-flex;
     display:flex;
     flex-direction:row;
 }
@@ -37,7 +38,7 @@ a:hover {
     background-color:#313331;
     padding:20px;
 }
-@media (min-width: 32.5em) {
+@media only screen and (min-width:37.5em){
     ul {
         flex-direction:column;
         flex-wrap:wrap;
