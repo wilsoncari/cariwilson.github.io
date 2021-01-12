@@ -35,7 +35,7 @@ a:hover {
 }
 @media (min-width: 32.5em) {
     nav {
-        display:block;
+        display:flex;
         flex-wrap:wrap;
     }
 }
