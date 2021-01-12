@@ -73,6 +73,9 @@ footer {
 main {
     margin-bottom:20px;
 }
+.copyrightlink:hover {
+    color:gray;
+}
 @media only screen and (min-width:37.5em){
     .nav-links {
         flex-direction:row;
