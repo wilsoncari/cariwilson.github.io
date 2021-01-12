@@ -70,6 +70,9 @@ ul {
 footer {
     border-top: #313331 solid 1px;
 }
+main {
+    margin-bottom:20px;
+}
 @media only screen and (min-width:37.5em){
     .nav-links {
         flex-direction:row;
