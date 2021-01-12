@@ -1,7 +1,6 @@
 .nav-links {
-    display: -webkit-flex;
     display:flex;
-    flex-direction:row;
+    flex-direction:column;
 }
 img {
     width:200px;
@@ -39,8 +38,8 @@ a:hover {
     padding:20px;
 }
 @media only screen and (min-width:37.5em){
-    ul {
-        flex-direction:column;
+    .nav-links {
+        flex-direction:row;
         flex-wrap:wrap;
     }
 }
