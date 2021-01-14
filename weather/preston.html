@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Preston Idaho Page">
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="small.css">
+  <link rel="stylesheet" href="medium.css">
+  <link rel="stylesheet" href="large.css">
+  <link rel="stylesheet" href="css/.css">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+
+  <title>Preston Idaho Weather</title>
+</head>
+<body>
+  <header class="header">
+    <img class="logo" src="images/logo.png" alt="Idaho Thyme and Seasons logo">
+    <nav class="clearfix">
+      <button onclick="toggleMenu()">&#9776;Menu</button>
+      <ul id="primaryNav" class="hide">
+          <li><a href="#">Home</a></li>
+          <li class="active"><a href="#">Preston</a></li>
+          <li><a href="#">Soda Springs</a></li>
+          <li><a href="#">Fish Haven</a></li> 
+          <li><a href="#">Storm Center</a></li>
+          <li class="active"><a href="#">Gallery</a></li>
+      </ul>
+  </nav>
+  </header>
+  
+<main>
+  <div> <h1 class="weatherwatch">Weather Watch</h1></div>
+  <div class=place-holder>Weather Summary</div>
+  <div class=place-holder>5 day forecast</div>
+  <div class=place-holder>Article</div>
+  <div class=place-holder>Contact Info</div>
+</main>
+
+<footer class="footer">
+  <div class="footer-box">
+ <p class="copyright">&copy; <span id="copyrightyear"></span> Cari Wilson | Utah | <a class="copyrightlink" href="https://www.byui.edu/online" target="_blank">BYUI online learning
+ </a></p>
+ <p id="date"></p>
+</div>
+</footer>
+<script src=".js"></script>
+</body>
+</html>
