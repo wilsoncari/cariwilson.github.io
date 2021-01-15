@@ -2,6 +2,7 @@
 
         nav button{
             display:none;
+            flex:none;
         }
         nav ul.hide {
             display:block;
@@ -10,10 +11,11 @@
             float:left;
              border-right:1px solid black;
              font-size:1.2em;  
-             margin:0px;
-             padding:0px;
-    }
-    nav {
-        margin-top:125px;
+             margin:0;
+             padding:0;
+        }
+        nav ul {
+            position:inherit;
+            padding:20px;
         }
     }
