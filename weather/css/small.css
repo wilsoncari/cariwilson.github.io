@@ -22,7 +22,8 @@ nav{
     float:right;
     font-family:"Nunito", Verdana, sans-serif;
     margin-top:175px;
-   
+    
+    
 }
 nav ul {
     list-style-type:none;
@@ -30,6 +31,7 @@ nav ul {
     margin:0;
     margin-top:60px;
     text-align:right;
+  
     
     
 }
