@@ -1,6 +1,4 @@
-html {
-    background-color: #EEEdE7;
-}
+
 header {
     background-color:#EEEdE7;
     margin-right:20px;
@@ -78,8 +76,7 @@ nav ul.hide {
     font-size:1.2em;
     padding:20px;
     font-family:"Poppins", Tahoma, sans-serif;
-    margin-left:20px;
-    margin-right:20px;
+    margin:20px;
 }
 
 footer {
