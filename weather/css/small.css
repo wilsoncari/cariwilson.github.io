@@ -54,6 +54,9 @@ nav ul li a.active {
  font-weight:bold; 
 
 }
+nav ul.hide {
+    display:none;
+}
 
 .weatherwatch {
     background-color: #66756A;
