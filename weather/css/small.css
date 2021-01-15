@@ -14,14 +14,11 @@ nav button{
     background-color:transparent;
     font-size:1.6rem;
     margin-right:20px;
-   
 }
 nav{
     float:right;
     font-family:"Nunito", Verdana, sans-serif;
     margin-top:175px;
-    
-    
 }
 nav ul {
     list-style-type:none;
@@ -29,7 +26,8 @@ nav ul {
     margin:0;
     margin-top:60px;
     margin-right:20px;
-    text-align:right;   
+    text-align:right; 
+     
 }
 nav ul li {
     font-size:1em;  
@@ -37,11 +35,14 @@ nav ul li {
     padding-top:20px;
     padding-bottom:20px;
     margin-left:0;
+    
 }
 nav ul li a {
     color:black;
     text-decoration: none;
     padding:.8% 1rem;
+    position:relative;
+    z-index: 1;
 }
 nav ul li a:hover {
     color:#66756A;
@@ -63,6 +64,7 @@ nav ul.hide {
     padding-bottom:20px;
     margin:0;
     font-size:2.5em;
+    width:100%;
 }
 .preston-header {
     background-color:#EEEdE7;
@@ -71,6 +73,7 @@ nav ul.hide {
     margin:0px;
     padding-top:10px;
     padding-bottom:10px;
+    width:100%;
 }
 .place-holder {
     background-color:#EEEdE7;
