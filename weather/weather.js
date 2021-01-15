@@ -1,3 +1,9 @@
+function toggleMenu() {
+   
+    document.getElementById("primaryNav").classList.toggle("hide");
+}
+
+
 let d= new Date(document.lastModified);
 
 let lastMonth=d.getMonth()+1;

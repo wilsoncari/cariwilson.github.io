@@ -1,0 +1,19 @@
+@media only screen and (min-width: 64rem) {
+
+        nav button{
+            display:none;
+        }
+        nav ul.hide {
+            display:block;
+        }
+        nav ul li {
+            float:left;
+             border-right:1px solid black;
+             font-size:1.2em;  
+             margin:0px;
+             padding:0px;
+    }
+    nav {
+        margin-top:125px;
+        }
+    }

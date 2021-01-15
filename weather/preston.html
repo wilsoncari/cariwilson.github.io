@@ -5,10 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Preston Idaho Page">
   <link rel="stylesheet" href="normalize.css">
-  <link rel="stylesheet" href="small.css">
-  <link rel="stylesheet" href="medium.css">
-  <link rel="stylesheet" href="large.css">
-  <link rel="stylesheet" href="css/.css">
+  <link rel="stylesheet" href="css/small.css">
+  <link rel="stylesheet" href="css/medium.css">
+  <link rel="stylesheet" href="css/large.css">
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
 
   <title>Preston Idaho Weather</title>
@@ -17,20 +16,20 @@
   <header class="header">
     <img class="logo" src="images/logo.png" alt="Idaho Thyme and Seasons logo">
     <nav class="clearfix">
-      <button onclick="toggleMenu()">&#9776;Menu</button>
+      <button onclick="toggleMenu()">&#9776;</button>
       <ul id="primaryNav" class="hide">
           <li><a href="#">Home</a></li>
-          <li class="active"><a href="#">Preston</a></li>
+          <li ><a class="active" href="#">Preston</a></li>
           <li><a href="#">Soda Springs</a></li>
           <li><a href="#">Fish Haven</a></li> 
           <li><a href="#">Storm Center</a></li>
-          <li class="active"><a href="#">Gallery</a></li>
+          <li><a href="#">Gallery</a></li>
       </ul>
-  </nav>
+    </nav>
   </header>
   
 <main>
-  <div> <h1 class="weatherwatch">Weather Watch</h1></div>
+  <div> <h1 class="weatherwatch">WEATHER WATCH</h1></div>
   <div class=place-holder>Weather Summary</div>
   <div class=place-holder>5 day forecast</div>
   <div class=place-holder>Article</div>
@@ -44,6 +43,6 @@
  <p id="date"></p>
 </div>
 </footer>
-<script src=".js"></script>
+<script src="weather.js"></script>
 </body>
 </html>
