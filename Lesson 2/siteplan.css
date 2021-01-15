@@ -5,6 +5,7 @@ html {
 .nav-links {
     display:flex;
     flex-direction:column;
+    list-style-type:none;
 }
 img {
     width:200px;
