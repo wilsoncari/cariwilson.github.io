@@ -1,6 +1,11 @@
 @media only screen and (min-width: 64rem) {
 
-        nav button{
+    body{  
+        width:80%;
+        align-items: center;
+        margin:auto;
+    }    
+    nav button{
             display:none;
             flex:none;
         }

@@ -3,11 +3,24 @@ header {
     background-color:#EEEdE7;
     margin:0;
     display: flex;
-    align-items: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+    
 }
 .logo {
     width: 200px;
     padding:20px;
+    position:absolute;
+}
+.weatherwatch {
+    text-align: center;
+    color:black;
+    font-family:"Poppins", Tahoma, sans-serif;
+    width:100%;
+    margin-left:50px;
+}
+.weatherwatch h2 {
+    font-family:"Nunito", Verdana, sans-serif;
 }
 nav button{
     margin-right:20px;
@@ -24,8 +37,7 @@ nav ul {
     list-style-type:none;
     padding:0;
     margin-left:-100px;
-    text-align:right; 
-    position:absolute;
+    text-align:center;
 }
 nav ul li {
     font-size:1em;  
@@ -33,7 +45,6 @@ nav ul li {
     padding-top:20px;
     padding-bottom:20px;
     margin-left:0;
-    
 }
 nav ul li a {
     color:black;
@@ -53,19 +64,8 @@ nav ul.hide {
     display:none;
 }
 
-.weatherwatch {
-    background-color: #66756A;
-    text-align: center;
-    color:black;
-    font-family:"Poppins", Tahoma, sans-serif;
-    padding-top:20px;
-    padding-bottom:20px;
-    margin:0;
-    font-size:2.5em;
-    width:100%;
-}
 .preston-header {
-    background-color:#EEEdE7;
+    background-color: #66756A;
     font-family: "Nunito", Verdana, sans-serif;
     text-align:center;
     margin:0px;
@@ -76,9 +76,9 @@ nav ul.hide {
 .place-holder {
     background-color:#EEEdE7;
     font-size:1.2em;
-    padding:20px;
     font-family:"Poppins", Tahoma, sans-serif;
     margin-top:5px;
+    padding:20px;
 }
 
 footer {
@@ -86,12 +86,17 @@ footer {
     padding:20px;
     font-family:"Nunito", Verdana, sans-serif;
     text-align:center;
+   
 }
 .copyrightlink:hover {
     color:white;
 }
 .copyrightlink {
     color:black;
+}
+
+img.social{
+    
 }
 .clearfix:after {
     content: "";
