@@ -94,16 +94,6 @@ footer {
 .copyrightlink {
     color:black;
 }
-.social{
-    display:flex;
-    flex-direction: row;
-    
-}
-.social img {
-    width: 30px;
-    padding-left:2px;
-    
-}
 
 .clearfix:after {
     content: "";

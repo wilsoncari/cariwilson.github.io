@@ -22,7 +22,7 @@
        
         nav ul li {
              border-right:1px solid black; 
-             padding:none;
+             padding:0;
              }
         .logo {
             width:200px;
@@ -32,14 +32,6 @@
        padding-left:8%;
        font-size: 1.2em;
    }
-   .social {
-       align-items: right;
-       padding:20px;
-       
-   }
-.social img {
-    width:50px;
-    padding:5px;
-}
+   
     }
 
