@@ -19,7 +19,8 @@
         }
       nav ul li {
           border-right:1px solid black;
-          
+          padding-top:0;
+          padding-bottom:0;
           font-size: 1.1em;
       }
       
