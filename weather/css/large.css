@@ -1,27 +1,45 @@
 @media only screen and (min-width: 64rem) {
 
-    body{  
+    header{
+    padding-left:10%;
+    padding-right:10%;
+    padding-top:2%;
+    padding-bottom:2%
+    }
+    main{  
         width:80%;
-        align-items: center;
         margin:auto;
     }    
     nav button{
             display:none;
-            flex:none;
         }
         nav ul.hide {
-            display:block;
+            display:inline-flex;
+            position: inherit;
+            width:80%;
+            justify-content: center;
         }
+       
         nav ul li {
-            float:left;
-             border-right:1px solid black;
-             font-size:1.2em;  
-             margin:0;
-             padding:0;
+             border-right:1px solid black; 
+             padding:none;
+             }
+        .logo {
+            width:200px;
+
         }
-        nav ul {
-            position:inherit;
-            padding:20px;
-        }
-        
+   .weatherwatch {
+       padding-left:8%;
+       font-size: 1.2em;
+   }
+   .social {
+       align-items: right;
+       padding:20px;
+       
+   }
+.social img {
+    width:50px;
+    padding:5px;
+}
     }
+

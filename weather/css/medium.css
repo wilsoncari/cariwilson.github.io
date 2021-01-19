@@ -1,26 +1,40 @@
-@media only screen and (min-width: 32.5em) {
-    body{  
+@media only screen and (min-width: 40rem) {
+    
+    header{
+        padding-left:10%;
+        padding-right:10%;
+        padding-top:2%;
+        padding-bottom:2%
+        }
+    main{  
         width:80%;
         align-items: center;
         margin:auto;
     }    
-    nav button{
-            display:none;
-            flex:none;
+    nav ul.hide {
+        display:inline-flex;
+        width:80%;
+        position:inherit;
+       justify-content: center;
         }
-        nav ul.hide {
-            display:block;
-        }
-        nav ul li {
-            float:left;
-             border-right:1px solid black;
-             font-size:1.2em;  
-             margin:0;
-             padding:0;
-        }
-        nav ul {
-            position:inherit;
-            padding:20px;
-        }
-    
+      nav ul li {
+          border-right:1px solid black;
+          padding:none;
+          font-size: 1.1em;
+      }
+      
+    nav button {
+        display:none;
     }
+    .weatherwatch {
+        padding-left:8%;
+        text-align: center;
+        margin:0;
+    }
+    .weatherwatch h2 {
+    font-size: 1.5em;
+    }
+.logo {
+    width:200px;
+}
+}
