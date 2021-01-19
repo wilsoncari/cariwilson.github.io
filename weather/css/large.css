@@ -19,10 +19,8 @@
             width:80%;
             justify-content: center;
         }
-       
         nav ul li {
              border-right:1px solid black; 
-             padding:0;
              }
         .logo {
             width:200px;
