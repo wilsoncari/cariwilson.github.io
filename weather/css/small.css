@@ -47,13 +47,12 @@ nav button{
     border:none;
     background-color:transparent;
     font-size:2rem;
-    
 }
 nav ul {
     list-style-type:none;
     text-align: center;
     display:block;
-   
+    width:85%;
 }
 nav ul li {
     font-size:1em;  
@@ -66,9 +65,11 @@ nav ul li a {
 }
 nav ul li a:hover {
     color:#EEEdE7;
+    font-style: oblique;
 }
 nav ul li a.active {
- font-weight:bold; 
+ font-weight:bold;
+ font-style: italic; 
 
 }
 nav ul.hide {
