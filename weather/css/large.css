@@ -1,37 +1,108 @@
 @media only screen and (min-width: 64rem) {
 
-    header{
+header{
     padding-left:10%;
     padding-right:10%;
     padding-top:2%;
     padding-bottom:2%
     }
-    main{  
-        width:80%;
-        margin:auto;
+main{  
+    width:80%;
+    margin:auto;
     }    
-    nav button{
-            display:none;
+nav button{
+    display:none;
+    }
+nav ul.hide {
+    display:inline-flex;
+    position: inherit;
+    width:80%;
+    justify-content: center;
         }
-        nav ul.hide {
-            display:inline-flex;
-            position: inherit;
-            width:80%;
-            justify-content: center;
+nav ul li {
+    border-right:1px solid black; 
+    padding-top:0;
+    padding-bottom:0;
         }
-        nav ul li {
-             border-right:1px solid black; 
-             padding-top:0;
-             padding-bottom:0;
-             }
-        .logo {
-            width:200px;
-
-        }
-   .weatherwatch {
-       padding-left:8%;
-       font-size: 1.2em;
+.logo {
+    width:200px;
+    }
+.weatherwatch {
+    padding-left:8%;
+    font-size: 1.2em;
    }
-   
+
+   .preston-is-famous {
+    padding:0;
+}
+.stay-in-preston {
+    background-color:#EEEdE7;
+    font-size:1.2em;
+    font-family:"Nunito", Verdana, sans-serif;
+    margin-top:5px;
+    padding:20px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-bottom:20px;
+    position-relative;
+}
+.preston-hotel {
+   width:400px;
+   height:240px;
+   box-shadow: 3px 3px 3px 0 gray;
+   margin:20px;
+   align-self: center;
+   position:inherit;
+   right:5px;
+}
+.preston-article {
+    position:inherit;
+    bottom:5px;
+    right:20px;
+    padding:20px, 20px, 20px, 0px;
+}
+
+    
+footer {
+    font-family:"Nunito", Verdana, sans-serif;
+    text-align:left;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    position:relative; 
+}
+.footer-main {
+    background-color: #66756A;
+    position:relative;
+    display: flex;
+    flex-direction: row;
+   justify-content: space-evenly;
+   position:relative;
+}
+.map {
+    width:200px;
+    height:200px;
+    padding:20px;
+}
+.contact{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+}
+.social {
+    display:inherit;
+}
+.footer-bar {
+    background-color: #EEEdE7;
+    position: absolute;
+    top:240px;
+    width:100%;
+    right:0px;
+    text-align: center;
+    margin:0;
+}
+
+
     }
 

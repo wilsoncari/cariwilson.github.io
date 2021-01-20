@@ -12,7 +12,7 @@
 
   <title>Preston Idaho Weather</title>
 </head>
-<body>
+<body onload="pancakeBanner()">
   <header class="header">
     <img class="logo" src="images/logo.png" alt="Idaho Thyme and Seasons logo">
     <div class="weatherwatch">
@@ -20,6 +20,9 @@
       <h2>Weather Watch</h2>
     </div>
   </header>
+  <div id="pancakes" class="pancakes-hide">
+    Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion
+  </div>
     <nav class="clearfix">
       <button onclick="toggleMenu()">&#9776;</button>
       <ul id="primaryNav" class="hide">
@@ -32,22 +35,61 @@
       </ul>
     </nav> 
 <main>
-  
+  <div class="hero-weathersum">
+     <p class="weather-summary">Weather Summary<br>
+        Currently:Sunny<br>
+        High:42<br>
+        Wind Chill: 38<br>
+        Humidity:32%<br>
+        Wind Speed: 5 mph
+    </p>
+  <img class="preston-pic" src="images/preston-picture.jpg" alt="beautiful lake and vacation houses in Preston, Idaho">
+</div>
   <h2 class="preston-header">Preston, Idaho</h2>
-  <div class=place-holder>Weather Summary</div>
-  <div class=place-holder>5 day forecast</div>
-  <div class=place-holder>Article</div>
-  <div class=place-holder>Contact Info</div>
+  <div class="forecast"><h3>5 day forecast</h3> <img src="images/5day.jpg" alt="5 day forecast"></div>
+  <div class=stay-in-preston>
+    <div class= "preston-article">
+      <h3 class=preston-is-famous>Preston is Famous!</h3>By The Crazy Tourist<br><br>
+          Before the hit movie “Napoleon Dynamite,” Preston was an unknown blip on a map to most of America – and the rest of the world.
+          But when Preston resident Jared Hess showcased Preston as being a quirky, lovable, and fun small town, fans came running.
+          The town took advantage by being the premier site to sell “Vote for Pedro” shirts, tater tots, and chapstick. 
+          Today, Napoleon’s legacy has worn off slightly but Preston has managed to retain its feel-good atmosphere.
+          Even if you’re not a fan of the quirky film, you should stop to enjoy the nearby natural parks like the Glendale Reservoir and other lakes.
+  </div>
+    <img class="preston-hotel" src="images/preston-hotel.jpg" alt="hotel in Preston Idaho">
+    </div>
 </main>
 
 <footer class="footer">
-  <div class="footer-box">
- <p class="copyright">&copy; <span id="copyrightyear"></span> Thyme and Seasons | Idaho | Cari Wilson
- </p>
- <p id="date"></p>
+ 
+  <div class="footer-main">
+   <img class="map" src="images/preston-map.png" alt="map of Preston, Idaho"> 
+  <div class="contact">
+  <p>
+    Contact Us<br>
+    Email: wil19119@byui.edu<br>
+    Phone: (222)222-2222
+  </p>
+  <div class="social">
+    <a href="https://www.facebook.com/" target="blank">
+      <img src="images/facebook logo.png" alt="facebook logo">
+    </a>
+      <a href="https://www.instagram.com/?hl=en" target="blank">
+      <img src="images/instagram logo.png" alt="instagram logo">
+    </a>
+     <a href="https://www.pinterest.com" target="blank">
+     <img  src="images/pinterest-logo.png" alt="pinterest logo"></a>
+    </div>
+  </div>
+    <div class="footer-bar">
+      <p class="copyright">&copy; <span id="copyrightyear"></span> Thyme and Seasons | Idaho | Cari Wilson</p>
+      <p id="date"></p>
+    </div>
+  
 </div>
-
+   
 </footer>
+
 <script src="weather.js"></script>
 </body>
 </html>

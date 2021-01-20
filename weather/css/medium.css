@@ -15,7 +15,7 @@
         display:inline-flex;
         width:80%;
         position:inherit;
-       justify-content: center;
+        justify-content: center;
         }
       nav ul li {
           border-right:1px solid black;
@@ -24,18 +24,91 @@
           font-size: 1.1em;
       }
       
-    nav button {
-        display:none;
+nav button {
+    display:none;
     }
-    .weatherwatch {
-        padding-left:8%;
-        text-align: center;
-        margin:0;
+.weatherwatch {
+    padding-left:8%;
+    text-align: center;
+    margin:0;
     }
-    .weatherwatch h2 {
+.weatherwatch h2 {
     font-size: 1.5em;
     }
 .logo {
     width:200px;
 }
+.weather-summary {
+    padding:20px; 
+ margin-left:20px;
+ font-family:"Poppins", Tahoma, sans-serif;
+ font-size:.9em;
+
+}
+.forecast{
+    display:flex; 
+    flex-direction: column;
+    background-color: #EEEdE7;
+    padding:0px 20px 20px 20px;
+    margin-bottom:20px;
+}
+.forecast h3{
+    margin:0;
+    padding-top:20px;
+    font-size:1.2em;
+    font-family:"Nunito", Verdana, sans-serif;
+    text-align: center;
+}
+.forecast img {
+  padding:20px;
+  
+ 
+}
+footer {
+    font-family:"Nunito", Verdana, sans-serif;
+    text-align:left;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    position:relative; 
+}
+.footer-main {
+    background-color: #66756A;
+    position:relative;
+    display: flex;
+    flex-direction: row;
+   justify-content: space-evenly;
+   position:relative;
+}
+.map {
+    width:200px;
+    height:200px;
+    padding:20px;
+}
+.contact{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+}
+.social {
+    display:inherit;
+}
+.footer-bar {
+    background-color: #EEEdE7;
+    position: absolute;
+    top:240px;
+    width:100%;
+    right:0px;
+    text-align: center;
+    margin:0;
+}
+
+
+}
+.social img {
+ width:50px;
+ padding:5px;
+ 
+}
+
 }
