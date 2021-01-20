@@ -133,7 +133,6 @@ nav ul.hide {
     flex-direction: column;
     justify-content:space-between;
     margin-bottom:20px;
-    position-relative;
 }
 .preston-hotel {
    width:400px;
@@ -148,7 +147,7 @@ nav ul.hide {
     position:inherit;
     bottom:5px;
     right:20px;
-    padding:20px, 20px, 20px, 0px;
+    padding:20px 20px 20px 0px;
 }
 
 footer {
@@ -186,7 +185,6 @@ footer {
     width:100%;
 }
 
-}
 .copyrightlink:hover {
     color:white;
 }

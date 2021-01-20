@@ -45,7 +45,6 @@ nav ul li {
     flex-direction: row;
     justify-content:space-between;
     margin-bottom:20px;
-    position-relative;
 }
 .preston-hotel {
    width:400px;
@@ -60,7 +59,7 @@ nav ul li {
     position:inherit;
     bottom:5px;
     right:20px;
-    padding:20px, 20px, 20px, 0px;
+    padding:20px 20px 20px 0px;
 }
 
     
