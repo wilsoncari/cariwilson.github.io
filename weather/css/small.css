@@ -110,6 +110,7 @@ nav ul.hide {
 }
 .weathersummarycontainer {
     background-color: #66756A; 
+    margin-left:-20px;
 }
 .weather-summary-list {
     padding-top:20px;
@@ -117,6 +118,12 @@ nav ul.hide {
     font-family:"Poppins", Tahoma, sans-serif;
     list-style:none;
     text-align: center;
+}
+.weathersummaryheading{
+    font-family:"Poppins", Tahoma, sans-serif;
+    font-size:1.5em;
+    border-bottom:1px solid black;
+    margin-left: -20px;
 }
 .forecast{
     display:none;

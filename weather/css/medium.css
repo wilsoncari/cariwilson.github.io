@@ -49,6 +49,9 @@ nav button {
     top:300px;
     left:110px;
    }
+   .weathersummaryheading{
+       margin-left: 5px;
+   }
 
 .stay-in-preston {
     background-color:#EEEdE7;
