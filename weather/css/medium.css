@@ -38,13 +38,17 @@ nav button {
 .logo {
     width:200px;
 }
-.weather-summary {
- padding:20px; 
- margin-left:20px;
- font-family:"Poppins", Tahoma, sans-serif;
- font-size:.8em;
-
-}
+.weather-summary-list {
+    background-color: #EEEdE7;
+    opacity: .6;
+    padding:20px; 
+    font-family:"Poppins", Tahoma, sans-serif;
+    font-size:.9em;
+    position:absolute;
+    list-style:none;
+    top:300px;
+    left:110px;
+   }
 
 .stay-in-preston {
     background-color:#EEEdE7;

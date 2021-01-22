@@ -87,17 +87,8 @@ nav ul li a.active {
 nav ul.hide {
     display:none;
 }
-.hero-weathersum {
-    display:flex;
-    flex-direction: column;
-    background-color: #EEEdE7;
-}
-.weather-summary {
- padding:20px; 
- margin-left:20px;
- font-family:"Poppins", Tahoma, sans-serif;
- font-size:.9em;
-}
+
+
 
 .preston-pic {
     display:block;
@@ -117,17 +108,16 @@ nav ul.hide {
     padding-bottom:10px;
     width:100%;
 }
-.weather-summary{
- background-color: #EEEdE7; 
- opacity:.6;
- padding:20px; 
- margin-left:20px;
- position:absolute;
- font-family:"Poppins", Tahoma, sans-serif;
- font-size:.8em;
- list-style:none;
+.weathersummarycontainer {
+    background-color: #66756A; 
 }
-
+.weather-summary-list {
+    padding-top:20px;
+    padding-bottom:20px;
+    font-family:"Poppins", Tahoma, sans-serif;
+    list-style:none;
+    text-align: center;
+}
 .forecast{
     display:none;
 }
