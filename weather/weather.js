@@ -23,3 +23,4 @@ function pancakeBanner (){
     document.getElementById("pancakes").classList.remove('pancakes-hide');
     }   
 }
+

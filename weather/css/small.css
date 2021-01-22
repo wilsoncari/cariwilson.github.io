@@ -7,6 +7,18 @@ header {
     padding-right:2%;
     
 }
+
+
+main figure.requiredphoto {
+    width:100%;
+    margin:0;
+}
+main figure.requiredphoto img {
+    width:100%;
+}
+
+
+
 .logo {
     width: 120px;
 
@@ -80,6 +92,13 @@ nav ul.hide {
     flex-direction: column;
     background-color: #EEEdE7;
 }
+.weather-summary {
+ padding:20px; 
+ margin-left:20px;
+ font-family:"Poppins", Tahoma, sans-serif;
+ font-size:.9em;
+}
+
 .preston-pic {
     display:block;
     width:100%;
@@ -106,49 +125,48 @@ nav ul.hide {
  position:absolute;
  font-family:"Poppins", Tahoma, sans-serif;
  font-size:.8em;
+ list-style:none;
 }
 
 .forecast{
     display:none;
 }
-.forecast img{
-    width:500px;
-   height:300px;
-   box-shadow: 4px 4px 4px 0 rgb(210, 210, 211);
-   align-self: center;
-   position:inherit;
-   right:5px;
+.forecast_photo {
+    width:80%;
 }
-
-.preston-is-famous {
-    padding:0;
+figure.forecast_photo img{
+    width:100%;
+    box-shadow: 4px 4px 4px 0 rgb(210, 210, 211);
+    align-self: center;
+    position:inherit;
+    right:5px;
 }
 .stay-in-preston {
     background-color:#EEEdE7;
     font-size:1.2em;
-    font-family:"Nunito", Verdana, sans-serif;
-    margin-top:5px;
+    font-family:"Nunito", Verdana, sans-serif; 
+    }
+figure.preston-hotel {
+    width: 40%;
+    margin:0;
+    float:right;
     padding:20px;
-    display: flex;
-    flex-direction: column;
-    justify-content:space-between;
-    margin-bottom:20px;
+    }
+figure.preston-hotel img {
+    width:100%;
 }
-.preston-hotel {
-   width:400px;
-   height:240px;
-   box-shadow: 3px 3px 3px 0 gray;
-   margin:20px;
-   align-self: center;
-   position:inherit;
-   right:5px;
+.article {
+    background-color: #EEEdE7;
+    padding:20px;
 }
-.preston-article {
-    position:inherit;
-    bottom:5px;
-    right:20px;
-    padding:20px 20px 20px 0px;
+.famous {
+    background-color:#EEEdE7;
+    font-family:"Poppins", Tahoma, sans-serif;   
 }
+.famous-paragraph {
+    background-color:#EEEdE7;
+    font-family:"Nunito", Verdana, sans-serif; 
+    }
 
 footer {
     font-family:"Nunito", Verdana, sans-serif;
@@ -167,7 +185,6 @@ footer {
     width:200px;
     height:200px;
     padding-top:20px;
-    
 }
 .contact{
     display:flex;

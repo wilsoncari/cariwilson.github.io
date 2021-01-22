@@ -39,12 +39,41 @@ nav button {
     width:200px;
 }
 .weather-summary {
-    padding:20px; 
+ padding:20px; 
  margin-left:20px;
  font-family:"Poppins", Tahoma, sans-serif;
- font-size:.9em;
+ font-size:.8em;
 
 }
+
+.stay-in-preston {
+    background-color:#EEEdE7;
+    font-size:1.2em;
+    font-family:"Nunito", Verdana, sans-serif; 
+    }
+figure.preston-hotel {
+    width: 40%;
+    margin:0;
+    float:right;
+    padding:20px;
+    }
+figure.preston-hotel img {
+    width:100%;
+}
+.article {
+    background-color: #EEEdE7;
+    padding:20px;
+}
+.famous {
+    background-color:#EEEdE7;
+    font-size:2em;
+    font-family:"Poppins", Tahoma, sans-serif;   
+}
+.famous-paragraph {
+    background-color:#EEEdE7;
+    font-size:1.2em;
+    font-family:"Nunito", Verdana, sans-serif; 
+    }
 .forecast{
     display:flex; 
     flex-direction: column;
@@ -55,7 +84,7 @@ nav button {
 .forecast h3{
     margin:0;
     padding-top:20px;
-    font-size:1.2em;
+    font-size:1.3em;
     font-family:"Nunito", Verdana, sans-serif;
     text-align: center;
 }

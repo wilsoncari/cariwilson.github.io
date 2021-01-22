@@ -32,37 +32,46 @@ nav ul li {
     font-size: 1.2em;
    }
 
+   .weather-summary {
+    padding:20px; 
+    margin-left:20px;
+    font-family:"Poppins", Tahoma, sans-serif;
+    font-size:.9em;
+   
+   }
+
    .preston-is-famous {
     padding:0;
 }
+
 .stay-in-preston {
     background-color:#EEEdE7;
     font-size:1.2em;
-    font-family:"Nunito", Verdana, sans-serif;
-    margin-top:5px;
+    font-family:"Nunito", Verdana, sans-serif; 
+    }
+figure.preston-hotel {
+    width: 40%;
+    margin:0;
+    float:right;
     padding:20px;
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between;
-    margin-bottom:20px;
+    }
+figure.preston-hotel img {
+    width:100%;
 }
-.preston-hotel {
-   width:400px;
-   height:240px;
-   box-shadow: 3px 3px 3px 0 gray;
-   margin:20px;
-   align-self: center;
-   position:inherit;
-   right:5px;
+.article {
+    background-color: #EEEdE7;
+    padding:20px;
 }
-.preston-article {
-    position:inherit;
-    bottom:5px;
-    right:20px;
-    padding:20px 20px 20px 0px;
+.famous {
+    background-color:#EEEdE7;
+    font-size:2em;
+    font-family:"Poppins", Tahoma, sans-serif;   
 }
-
-    
+.famous-paragraph {
+    background-color:#EEEdE7;
+    font-size:1.2em;
+    font-family:"Nunito", Verdana, sans-serif; 
+    }
 footer {
     font-family:"Nunito", Verdana, sans-serif;
     text-align:left;
