@@ -65,6 +65,8 @@ nav ul {
     text-align: center;
     display:block;
     width:85%;
+    padding-left: 0px;
+    margin-left: 22px;
 }
 nav ul li {
     font-size:1em;  
@@ -110,20 +112,21 @@ nav ul.hide {
 }
 .weathersummarycontainer {
     background-color: #66756A; 
-    margin-left:-20px;
 }
 .weather-summary-list {
     padding-top:20px;
     padding-bottom:20px;
     font-family:"Poppins", Tahoma, sans-serif;
-    list-style:none;
+    list-style-type:none;
     text-align: center;
+    line-height:2em;
+    padding-left: 0px;
 }
+
 .weathersummaryheading{
     font-family:"Poppins", Tahoma, sans-serif;
     font-size:1.5em;
-    border-bottom:1px solid black;
-    margin-left: -20px;
+    padding-bottom:20px;
 }
 .forecast{
     display:none;
