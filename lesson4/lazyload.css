@@ -1,0 +1,22 @@
+picture img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+  picture img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+    display:grid;
+    padding:20px;
+  }
+
+  h1 {
+      text-align: center;
+  }
+  .container {
+      display:grid;
+      justify-content: center;
+
+  }
+
+ 
+ 
