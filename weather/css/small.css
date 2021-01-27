@@ -236,16 +236,28 @@ footer {
     content: "";
     display: table;
     clear: both;
-  }
-  picture img[data-src] {
+}
+picture img[data-src] {
     filter: blur(0.2em);
-  }
-  
-  picture img {
+}
+
+picture img {
     filter: blur(0em);
     transition: filter 0.5s;
-  }
-  .photocontainer {
+}
+
+figure img[data-src] {
+    filter: blur(0.2em);
+}
+
+figure img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+figure {
+    margin: 0;
+}
+.photocontainer {
     display:grid;
     grid-template-columns: 300px;
     grid-row-gap:30px;
@@ -257,10 +269,12 @@ footer {
     margin-bottom:20px;
 }
 .galleryphotos:hover {
-box-shadow:0 0 50px #333;
+    box-shadow:0 0 50px #333;
 }
 figcaption {
-  display:none;
+    display: none;
 }
+
+
 
  
