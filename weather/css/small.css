@@ -90,7 +90,7 @@ nav ul.hide {
 
 .preston-header {
     background-color:#EEEdE7;
-    font-family: "Nunito", Verdana, sans-serif;
+    font-family: "Poppins", Tahoma, sans-serif;
     text-align:center;
     margin:0px 0px 20px 0px ;
     padding-top:10px;
@@ -123,31 +123,30 @@ nav ul.hide {
     display:flex;
     flex-direction: row;
     justify-content: center;
-    padding:50px;
+    padding:30px;
 }
 .weatherbox {
     display:flex;
     flex-direction: column;
     align-items: center;
     border:1px solid black;
-   font-family:"Nunito", Verdana, sans-serif;
+    font-family:"Nunito", Verdana, sans-serif;
     margin:10px;
 }
 .weathericon {
     border-top:1px solid black;
     border-bottom:1px solid black;
-   padding:20px;
+    padding:20px;
     width:50px;
 }
 .forecast h2{
     margin:0;
-    padding-top:20px;
-    font-size:1.5em;
+    padding-top:20px;font-size:2em;
     font-family:"Nunito", Verdana, sans-serif;
     text-align: center;
 }
 .weatherday {
-    background-color:cadetblue;
+    background-color:#95B1AF;
     width:100%;
     text-align:center;
     color:#EEEdE7;
@@ -155,7 +154,7 @@ nav ul.hide {
     padding-bottom: 10px;
 }
 .weathertemp {
-    background-color:cadetblue;
+    background-color:#95B1AF;
     width:100%;
     text-align: center;
     color:#EEEdE7;
@@ -275,6 +274,8 @@ figcaption {
     display: none;
 }
 
-
+figure.galleryphotos:hover figcaption {
+    display:block;
+}
 
  
