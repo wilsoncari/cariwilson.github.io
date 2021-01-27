@@ -26,19 +26,21 @@
     <nav class="clearfix">
       <button onclick="toggleMenu()">&#9776;</button>
       <ul id="primaryNav" class="hide">
-          <li><a href="#">Home</a></li>
+          <li><a href="file:///Users/cari/Downloads/WDD%20230/cariwilson.github.io/weather/preston.html">Home</a></li>
           <li ><a class="active" href="#">Preston</a></li>
           <li><a href="#">Soda Springs</a></li>
           <li><a href="#">Fish Haven</a></li> 
           <li><a href="#">Storm Center</a></li>
-          <li><a href="#">Gallery</a></li>
+          <li><a href="file:///Users/cari/Downloads/WDD%20230/cariwilson.github.io/weather/gallery.html">Gallery</a></li>
       </ul>
     </nav> 
 <main>
   
-  <figure class="requiredphoto">
-    <img class="preston-pic" src="preston-assets/wdd230_image_franklinOriginal.jpeg" alt="beautiful lake and vacation houses in Preston, Idaho">
-  </figure>
+  <picture >
+    <source srcset="preston-assets/preston-medium.png" media="(min-width:640px) and (max-width:1023px)">
+      <source srcset="preston-assets/preston-large.png" media="(min-width:1024px)">
+    <img class="preston-pic" src="preston-assets/preston-small.png"  alt="Beautiful lake in Preston, Idaho">
+      </picture>
 
   <div class="weathersummarycontainer">
     <ul class="weather-summary-list">
@@ -53,10 +55,34 @@
 
   <h2 class="preston-header">Preston, Idaho</h2>
   <div class="forecast">
-    <h3>5 day forecast</h3> 
-    <figure class="forecast_photo">
-    <img src="images/5day.jpg" alt="5 day forecast">
-  </figure>
+    <h2>5 day forecast</h2> 
+    <section class="fivedays">
+    <div class="weatherbox">
+      <div class="weatherday">Mon</div>
+      <img class="weathericon" src="images/cloud.png">
+      <div class="weathertemp">60&#8457</div>
+    </div>
+    <div class="weatherbox">
+      <div class="weatherday">Tue</div>
+      <img class="weathericon" src="images/cloud.png">
+      <div class="weathertemp">60&#8457</div>
+    </div>
+    <div class="weatherbox">
+      <div class="weatherday">Wed</div>
+      <img class="weathericon" src="images/cloud.png">
+      <div class="weathertemp">60&#8457</div>
+    </div>
+    <div class="weatherbox">
+      <div class="weatherday">Thu</div>
+      <img class="weathericon" src="images/cloud.png">
+      <div class="weathertemp">60&#8457</div>
+    </div>
+    <div class="weatherbox">
+      <div class="weatherday">Fri</div>
+      <img class="weathericon" src="images/cloud.png">
+      <div class="weathertemp">60&#8457</div>
+    </div>
+  </section>
   </div>
   
   <div class="stayinpreston"></div>

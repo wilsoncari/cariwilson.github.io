@@ -8,17 +8,6 @@ header {
     
 }
 
-
-main figure.requiredphoto {
-    width:100%;
-    margin:0;
-}
-main figure.requiredphoto img {
-    width:100%;
-}
-
-
-
 .logo {
     width: 120px;
 
@@ -90,8 +79,6 @@ nav ul.hide {
     display:none;
 }
 
-
-
 .preston-pic {
     display:block;
     width:100%;
@@ -131,15 +118,49 @@ nav ul.hide {
 .forecast{
     display:none;
 }
-.forecast_photo {
-    width:80%;
+
+.fivedays {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    padding:50px;
 }
-figure.forecast_photo img{
+.weatherbox {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border:1px solid black;
+   font-family:"Nunito", Verdana, sans-serif;
+    margin:10px;
+}
+.weathericon {
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+   padding:20px;
+    width:50px;
+}
+.forecast h2{
+    margin:0;
+    padding-top:20px;
+    font-size:1.5em;
+    font-family:"Nunito", Verdana, sans-serif;
+    text-align: center;
+}
+.weatherday {
+    background-color:cadetblue;
     width:100%;
-    box-shadow: 4px 4px 4px 0 rgb(210, 210, 211);
-    align-self: center;
-    position:inherit;
-    right:5px;
+    text-align:center;
+    color:#EEEdE7;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+.weathertemp {
+    background-color:cadetblue;
+    width:100%;
+    text-align: center;
+    color:#EEEdE7;
+    padding-top:10px;
+    padding-bottom: 10px;
 }
 .stay-in-preston {
     background-color:#EEEdE7;
@@ -154,6 +175,8 @@ figure.preston-hotel {
     }
 figure.preston-hotel img {
     width:100%;
+    box-shadow:2px 2px 2px 0px gray;
+   
 }
 .article {
     background-color: #EEEdE7;
@@ -214,3 +237,30 @@ footer {
     display: table;
     clear: both;
   }
+  picture img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+  picture img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+  }
+  .photocontainer {
+    display:grid;
+    grid-template-columns: 300px;
+    grid-row-gap:30px;
+    justify-content: center;
+    text-align:center;
+    font-family:"Poppins", Tahoma, sans-serif;
+    font-size:.7em;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.galleryphotos:hover {
+box-shadow:0 0 50px #333;
+}
+figcaption {
+  display:none;
+}
+
+ 
