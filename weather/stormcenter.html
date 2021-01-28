@@ -39,7 +39,7 @@
       <label  class="top">Full Name* <input  type="text" name="fullname" pattern="([a-zA-Z\s]){5,}" required></label>
       <label  class="top">Email <input type="email" name="email" placeholder="someone@email.com"></label>
       <label  class="top">Phone* <input type="tel" name="phone" required></label>
-      <label  class="top">Zip Code* <input type="number" pattern="(\d{5}([\-]\d{4})?)"  required ></label>
+      <label  class="top">Zip Code* <input type="text" pattern="(\d{5}([\-]\d{4})?)"  required ></label>
     </fieldset>
 
     <fieldset>
@@ -85,17 +85,16 @@
 
       <fieldset>
       <legend>User In-Danger </legend>
-        <div class="dangerdiv">Are you in danger?</div>
-        <div class="radio">
-        <label class="danger"></label><input type="radio" name="danger"><options value="yes"> Yes</options></label>
-        <label class="danger"></label><input type="radio" name="danger"><options value="maybe"> Maybe</options></label>
-        <label class="danger"></label><input type="radio" name="danger"><options value="no"> No</options></label>
-        </div>
+        <div class="dangerdiv">Are you in danger?</div>       
+        <label class="danger"><input type="radio" name="danger" value="yes"> Yes</label>
+        <label class="danger"><input type="radio" name="danger" value="maybe"> Maybe</label>
+        <label class="danger"><input type="radio" name="danger" value="no"> No</label>   
     </fieldset>
     
     <fieldset>
       <legend>Additional Information</legend>
-      <label  class="top">Comments: <input type="textarea" name="comments"></label>
+      <label  class="top">Comments:</label> 
+      <label><textarea name="comments"></textarea></label>
     </fieldset>
 
     <input type="submit" name="submit" value="Report a Storm" class="submitform">

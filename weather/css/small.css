@@ -315,14 +315,14 @@ form label.top input, form label.top select {
     padding:.7rem;
     color:#555;
     width:100%;
-    max-width:20rem;
+    max-width:15rem;
     background-color:rgba(0,0,0,0.1);
 }
 form label.severity {
     display: flex;
     flex-direction: column;
     width: 100%;
-    max-width:17rem;
+    max-width:16rem;
     padding:.4rem 0;
 }
 
@@ -348,16 +348,8 @@ form input.submitform {
  form label.danger {
     display:block;
     padding:.75rem;
-    
-   
 }
-.dangerdiv {
-    margin-bottom:-15px;
-    
-}
-.radio {
-    padding-left:.75rem;
-}
+
 .thanks{
     font-family:"Poppins", Tahoma, sans-serif;
     
@@ -370,7 +362,4 @@ input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
-.top {
-    width: 100%;
-    max-width:16rem;
-}
+
