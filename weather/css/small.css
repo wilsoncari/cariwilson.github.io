@@ -280,8 +280,12 @@ figure.galleryphotos:hover figcaption {
 
 main form {
     font-family:"Nunito", Verdana, sans-serif;
-    text-align: left;
-    margin-bottom:20px;
+   padding:10px;
+   
+}
+form legend{
+    margin:0 1rem;
+    padding:0 .5rem;
 }
 
 form fieldset {
@@ -295,7 +299,7 @@ form label.top, form div {
     display:block;
     padding-top:20px;
     font-size:1rem;
-    padding:10px;
+   
 }
 
  form label.top input:required {
@@ -318,8 +322,8 @@ form label.severity {
     display: flex;
     flex-direction: column;
     width: 100%;
-    max-width:20rem;
-    padding:.7rem;
+    max-width:17rem;
+    padding:.4rem 0;
 }
 
 form input.submitform {
@@ -343,7 +347,7 @@ form input.submitform {
 
  form label.danger {
     display:block;
-    padding:.80rem;
+    padding:.75rem;
     
    
 }
@@ -365,4 +369,8 @@ input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
+}
+.top {
+    width: 100%;
+    max-width:16rem;
 }

@@ -142,5 +142,12 @@ figcaption{
     padding-bottom:10px;
     padding-top:10px;
 }
+form label.severity {
+    padding:.4rem 0;
+}
+.top {
+    width: 100%;
+    max-width:20rem;
+}
     }
 
