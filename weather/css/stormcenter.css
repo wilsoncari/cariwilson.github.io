@@ -47,6 +47,12 @@ form label.severity {
     padding-top:2rem;
 }
 
+form label.severity datalist{
+    width:100%;
+    max-width:20rem;
+    margin:0;
+}
+
 form input.submitform {
     border:none;
     background-color: #d1755d;
@@ -94,4 +100,8 @@ textarea {
     width: 100%;
     max-width: 20rem;
     height: 10rem;
+}
+.severitydiv{
+    display:inline;
+    
 }
