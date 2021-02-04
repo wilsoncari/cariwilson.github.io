@@ -1,200 +1,61 @@
-header {
-    background-color:#EEEdE7;
-    display:flex;
-    align-items: center;
-    padding-left:2%;
-    padding-right:2%;
-    
-}
-.logo {
-    width: 120px;
-
-   }
-   #pancakes{
+h1 {
     text-align: center;
-    font-family:"Poppins", Tahoma, sans-serif;
-    font-size:2em;
-    background-color: rgb(202, 181, 89);
-    position:absolute;
-    top:0;
-    right:1px;
-    left:1px;
-   }
-   .pancakes-hide {
-       display:none;
-   }
-.weatherwatch {
-    text-align: center;
-    color:black;
-    font-family:"Poppins", Tahoma, sans-serif;
-    display:inline-block;
-    align-items: center;
-    margin-top:30px;
-    text-align: left;
-    padding-left:20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.weatherwatch h2 {
-    font-family:"Nunito", Verdana, sans-serif;
-    font-size:1.2em;
-}
-nav{
-    font-family:"Nunito", Verdana, sans-serif;
-    background-color:#66756A;
-    text-align: center;
-}
-nav button{
-    border:none;
-    background-color:transparent;
-    font-size:2rem;
-}
-nav ul {
-    list-style-type:none;
-    text-align: center;
-    display:block;
-    width:85%;
-}
-nav ul li {
-    font-size:1em;  
-    padding:20px;
-   
-}
-nav ul li a {
-    color:black;
-    text-decoration: none;
-}
-nav ul li a:hover {
-    color:#EEEdE7;
-    font-style: oblique;
-}
-nav ul li a.active {
- font-weight:bold;
- font-style: italic; 
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+   justify-items:center;
+   text-align: center;
+   grid-row-gap:20px;
 
 }
-nav ul.hide {
-    display:none;
-}
-.hero-weathersum {
-    display:flex;
-    flex-direction: column;
-    background-color: #EEEdE7;
-}
-.preston-pic {
-    display:block;
-    width:100%;
-    margin-right:auto;
-    margin-left: auto;
-    margin-bottom:5px;
-    box-shadow: 3px 3px 3px 0px gray;
-}
 
-.preston-header {
-    background-color:#EEEdE7;
-    font-family: "Nunito", Verdana, sans-serif;
-    text-align:center;
-    margin:0px 0px 20px 0px ;
-    padding-top:10px;
-    padding-bottom:10px;
+main div section  {
+    background-color:rgb(207, 227, 228);
+    padding-bottom:20px;
     width:100%;
 }
-.weather-summary{
- background-color: #EEEdE7; 
- opacity:.6;
- padding:20px; 
- margin-left:20px;
- position:absolute;
- font-family:"Poppins", Tahoma, sans-serif;
- font-size:.8em;
-}
 
-.forecast{
-    display:none;
+img {
+    width: 80%;
 }
-.forecast img{
-    width:500px;
-   height:300px;
-   box-shadow: 4px 4px 4px 0 rgb(210, 210, 211);
-   align-self: center;
-   position:inherit;
-   right:5px;
+h2 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
-
-.preston-is-famous {
-    padding:0;
+p {
+    font-family:Arial, Helvetica, sans-serif;
 }
-.stay-in-preston {
-    background-color:#EEEdE7;
-    font-size:1.2em;
-    font-family:"Nunito", Verdana, sans-serif;
-    margin-top:5px;
-    padding:20px;
-    display: flex;
-    flex-direction: column;
-    justify-content:space-between;
-    margin-bottom:20px;
-}
-.preston-hotel {
-   width:400px;
-   height:240px;
-   box-shadow: 3px 3px 3px 0 gray;
-   margin:20px;
-   align-self: center;
-   position:inherit;
-   right:5px;
-}
-.preston-article {
-    position:inherit;
-    bottom:5px;
-    right:20px;
-    padding:20px 20px 20px 0px;
-}
-
 footer {
-    font-family:"Nunito", Verdana, sans-serif;
-    text-align:center;
-    display:flex;
-    flex-direction: column;
-    
-}
-.footer-main {
-    background-color: #66756A;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.map {
-    width:200px;
-    height:200px;
-    padding-top:20px;
-    
-}
-.contact{
-    display:flex;
-    flex-direction: column;
-    position: inherit;
     padding:20px;
-}
-.social {
-    display:none;
-}
-.footer-bar {
-    background-color: #EEEdE7;
-    position: inherit;
     text-align: center;
-    width:100%;
 }
 
-.copyrightlink:hover {
-    color:white;
-}	
-.copyrightlink {
-    color:black;
+.story {
+    text-align: left;
 }
 
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+@media only screen and (min-width: 35rem) {
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+       justify-items:center;
+       text-align: center;
+       grid-gap:20px;
+    }
 
-  
+}
+
+
+
+@media only screen and (min-width: 64rem) {
+
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-column-gap:10px;
+       justify-items:center;
+       text-align: center;
+       grid-row-gap:20px;
+    }
+}

@@ -146,9 +146,30 @@ footer {
        margin-top:20px;
        margin-bottom:20px;
    }
-   .galleryphotos {
-    box-shadow:0 0 20px #333;
+figcaption {
+    display:none;
 }
-   
+
+.town img {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+    
+.town {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.soda:nth-child(odd) img {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.soda:nth-child(odd) .towninfo {
+    grid-column: 2;
+}
+
 
 }

@@ -267,12 +267,52 @@ figure {
     margin-top:20px;
     margin-bottom:20px;
 }
-
-.galleryphotos {
-    box-shadow:0 0 20px #333;
+.galleryphotos:hover {
+    box-shadow:0 0 50px #333;
+}
+figcaption {
+    display: none;
 }
 
 figure.galleryphotos:hover figcaption {
     display:block;
 }
 
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+    font-family:"Nunito", "Verdana", sans-serif;
+    text-align: center;
+    background-color: #9aa19c;
+    padding-left: 10px;
+    padding-right: 10px;
+     
+}
+
+main h2 {
+    font-family: "Poppins", "Tahoma", sans-serif;
+    text-align: center;
+}
+
+main div.home-stories { 
+    
+    align-items: center;
+    background-color: #EEEdE7;
+    margin-bottom:20px;
+    margin-top:20px;
+    }
+
+main img {
+    width:100%;
+}
+
+.towninfo p{
+    text-align: center;
+    line-height: 1rem;
+}
+.story {
+    text-align: left;
+    margin: 5px;
+}

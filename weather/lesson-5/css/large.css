@@ -1,57 +1,61 @@
-@media only screen and (min-width: 40rem) {
-    
-    header{
-        padding-left:10%;
-        padding-right:10%;
-        padding-top:2%;
-        padding-bottom:2%
-        }
-    main{  
-        width:80%;
-        align-items: center;
-        margin:auto;
-    }    
-    nav ul.hide {
-        display:inline-flex;
-        width:80%;
-        position:inherit;
-        justify-content: center;
-        }
-      nav ul li {
-          border-right:1px solid black;
-          padding-top:0;
-          padding-bottom:0;
-          font-size: 1.1em;
-      }
-      
-nav button {
+@media only screen and (min-width: 64rem) {
+
+header{
+    padding-left:10%;
+    padding-right:10%;
+    padding-top:2%;
+    padding-bottom:2%
+    }
+
+main{  
+    width:80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: start;
+    grid-column-gap: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    } 
+
+nav button{
     display:none;
     }
-.weatherwatch {
-    padding-left:8%;
-    text-align: center;
-    margin:0;
-    }
-.weatherwatch h2 {
-    font-size: 1.5em;
-    }
+nav ul.hide {
+    display:inline-flex;
+    position: inherit;
+    width:80%;
+    justify-content: center;
+        }
+nav ul li {
+    border-right:1px solid black; 
+    padding-top:0;
+    padding-bottom:0;
+        }
 .logo {
     width:200px;
 }
+.weatherwatch {
+    padding-left:8%;
+    font-size: 1.2em;
+}
+
 .weather-summary-list {
     background-color: #EEEdE7;
-    opacity: .6;
+    opacity:.6;
     padding:20px; 
     font-family:"Poppins", Tahoma, sans-serif;
     font-size:.9em;
     position:absolute;
+    top:325px;
+    left:170px;
     list-style:none;
-    top:300px;
-    left:110px;
-   }
-   .weathersummaryheading{
-       margin-left: 5px;
-   }
+}
+.weathersummaryheading{
+    margin-left: 5px;
+    }
+.preston-is-famous {
+    padding:0;
+    }
 
 .stay-in-preston {
     background-color:#EEEdE7;
@@ -81,14 +85,6 @@ figure.preston-hotel img {
     font-size:1.2em;
     font-family:"Nunito", Verdana, sans-serif; 
     }
-.forecast{
-    display:flex; 
-    flex-direction: column;
-    background-color: #EEEdE7;
-    padding:0px 20px 20px 20px;
-    margin-bottom:20px;
-}
-
 footer {
     font-family:"Nunito", Verdana, sans-serif;
     text-align:left;
@@ -109,7 +105,9 @@ footer {
     width:200px;
     height:200px;
     padding:20px;
+    
 }
+
 .contact{
     display:flex;
     flex-direction: column;
@@ -128,27 +126,41 @@ footer {
     margin:0;
 }
 
-.social img {
-    width:50px;
-    padding:5px;
+.photocontainer {
+    display:grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-row-gap:20px;
+    grid-column-gap:30px;
+    justify-content: center;
+    text-align:center;
+    font-family:"Poppins", Tahoma, sans-serif;
+    font-size:.7em;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.galleryphotos {
     
-   }
-   
-   .photocontainer {
-       display:grid;
-       grid-template-columns: 300px 300px;
-       grid-row-gap:20px;
-       grid-column-gap:30px;
-       justify-content: center;
-       text-align:center;
-       font-family:"Poppins", Tahoma, sans-serif;
-       font-size:.7em;
-       margin-top:20px;
-       margin-bottom:20px;
-   }
-   .galleryphotos {
     box-shadow:0 0 20px #333;
 }
-   
+
+
+figcaption{
+    display:block;
+    padding-bottom:10px;
+    padding-top:10px;
+}
+form label.severity {
+    padding:.4rem 0;
+}
+.top {
+    width: 100%;
+    max-width:20rem;
+}
+
+.town {
+    display: block;
+}
+    
 
 }
+
