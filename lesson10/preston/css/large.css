@@ -1,0 +1,155 @@
+@media only screen and (min-width: 64rem) {
+
+header{
+    padding-left:10%;
+    padding-right:10%;
+    padding-top:2%;
+    padding-bottom:2%
+    }
+main{  
+    width:80%;
+    margin:auto;
+    }    
+nav button{
+    display:none;
+    }
+nav ul.hide {
+    display:inline-flex;
+    position: inherit;
+    width:80%;
+    justify-content: center;
+        }
+nav ul li {
+    border-right:1px solid black; 
+    padding-top:0;
+    padding-bottom:0;
+        }
+.logo {
+    width:200px;
+    }
+.weatherwatch {
+    padding-left:8%;
+    font-size: 1.2em;
+   }
+
+   .weather-summary-list {
+    background-color: #EEEdE7;
+    opacity:.6;
+    padding:20px; 
+    font-family:"Poppins", Tahoma, sans-serif;
+    font-size:.9em;
+    position:absolute;
+    top:325px;
+    left:170px;
+    list-style:none;
+   }
+   .weathersummaryheading{
+    margin-left: 5px;
+}
+   .preston-is-famous {
+    padding:0;
+}
+
+.stay-in-preston {
+    background-color:#EEEdE7;
+    font-size:1.2em;
+    font-family:"Nunito", Verdana, sans-serif; 
+    }
+figure.preston-hotel {
+    width: 40%;
+    margin:0;
+    float:right;
+    padding:20px;
+    }
+figure.preston-hotel img {
+    width:100%;
+}
+.article {
+    background-color: #EEEdE7;
+    padding:20px;
+}
+.famous {
+    background-color:#EEEdE7;
+    font-size:2em;
+    font-family:"Poppins", Tahoma, sans-serif;   
+}
+.famous-paragraph {
+    background-color:#EEEdE7;
+    font-size:1.2em;
+    font-family:"Nunito", Verdana, sans-serif; 
+    }
+footer {
+    font-family:"Nunito", Verdana, sans-serif;
+    text-align:left;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    position:relative; 
+}
+.footer-main {
+    background-color: #66756A;
+    position:relative;
+    display: flex;
+    flex-direction: row;
+   justify-content: space-evenly;
+   position:relative;
+}
+.map {
+    width:200px;
+    height:200px;
+    padding:20px;
+    
+}
+
+.contact{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+}
+.social {
+    display:inherit;
+}
+.footer-bar {
+    background-color: #EEEdE7;
+    position: absolute;
+    top:240px;
+    width:100%;
+    right:0px;
+    text-align: center;
+    margin:0;
+}
+
+.photocontainer {
+    display:grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-row-gap:20px;
+    grid-column-gap:30px;
+    justify-content: center;
+    text-align:center;
+    font-family:"Poppins", Tahoma, sans-serif;
+    font-size:.7em;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.galleryphotos {
+    
+    box-shadow:0 0 20px #333;
+}
+.galleryphotos:hover {
+    box-shadow:0 0 50px #333;
+}
+
+figcaption{
+    display:block;
+    padding-bottom:10px;
+    padding-top:10px;
+}
+form label.severity {
+    padding:.4rem 0;
+}
+.top {
+    width: 100%;
+    max-width:20rem;
+}
+    }
+
