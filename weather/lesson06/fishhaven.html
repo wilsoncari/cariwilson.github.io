@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Preston Idaho Page">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/small.css">
+  <link rel="stylesheet" href="css/medium.css">
+  <link rel="stylesheet" href="css/large.css">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+
+  <title>Fish Haven Weather</title>
+</head>
+<body>
+  <header class="header">
+    <img class="logo" src="images/logo.png" alt="Idaho Thyme and Seasons logo">
+    <div class="weatherwatch">
+      <h1>IDAHO THYME & SEASONS</h1>
+      <h2>Weather Watch</h2>
+    </div>
+  </header>
+ 
+    <nav class="clearfix">
+      <button onclick="toggleMenu()">&#9776;</button>
+      <ul id="primaryNav" class="hide">
+          <li><a href="index.html">Home</a></li>
+          <li ><a  href="preston.html">Preston</a></li>
+          <li><a href="sodasprings.html">Soda Springs</a></li>
+          <li><a class="active" href="fishhaven.html">Fish Haven</a></li> 
+          <li><a href="stormcenter.html">Storm Center</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </nav> 
+<main>
+  
+  <picture >
+    <source srcset="images/fishhaven-medium.jpg" media="(min-width:640px) and (max-width:1023px)">
+      <source srcset="images/fishhaven-Large.jpg" media="(min-width:1024px)">
+    <img class="preston-pic" src="images/fishhaven-small.jpg"  alt="Beautiful lake in Preston, Idaho">
+      </picture>
+
+  <div class="weathersummarycontainer">
+    <ul class="weather-summary-list">
+      <li class="weathersummaryheading">Weather Summary</li>
+      <li>Currently: <span id="description"></span></li>
+      <li> High: <span id="temp"> 42</span>&deg; F</li>
+      <li>Wind Chill: <span id="windchill"></span>&deg; F</li>
+      <li>Humidity: <span id="humidity"></span>%</li>
+      <li>Wind Speed: <span id="windspeed"> </span> mph</li>
+    </ul>
+  </div>
+
+  <h2 class="preston-header">Fish Haven, Idaho</h2>
+  <div class="forecast">
+    <h2>5 DAY FORECAST</h2> 
+    <section class="fivedays">
+    <div class="weatherbox">
+      <div class="weatherday" id="day1"></div>
+      <img class="weathericon" id="icon1" src="#"  alt="#">
+      <div class="weathertemp" id="temp1">&#8457;</div>
+    </div>
+    <div class="weatherbox">
+      <div class="weatherday" id="day2"></div>
+      <img class="weathericon" id="icon2" src="#"  alt="#">
+      <div class="weathertemp" id="temp2">&#8457;</div>
+    </div>
+    <div class="weatherbox">
+      <div class="weatherday" id="day3"></div>
+      <img class="weathericon" id="icon3" src="#"  alt="#">
+      <div class="weathertemp" id="temp3">&#8457;</div>
+    </div>
+    <div class="weatherbox">
+      <div class="weatherday" id="day4"></div>
+      <img class="weathericon" id="icon4" src="#"  alt="#">
+      <div class="weathertemp" id="temp4">&#8457;</div>
+    </div>
+    <div class="weatherbox">
+      <div class="weatherday" id="day5"></div>
+      <img class="weathericon" id="icon5" src="#"  alt="#">
+      <div class="weathertemp" id="temp5">&#8457;</div>
+    </div>
+  </section>
+  </div>
+  
+  <div class="stayinpreston"></div>
+  <figure class="preston-hotel">
+    <img  src="images/eagels.jpg" alt="eagles flying to a big tree">
+  </figure>
+  <div class="article">
+      <h3 class="famous">Bald Eagles in Family Tree</h3>
+      <p class="famous-paragraph">By Nicole Blanchard | Idaho Statesman<br><br>
+        When Paul and Rosemary Azevedo bought their Wendell farm in 2001, the previous owner told them it was a good spot for viewing wildlife. He’d even see a bald eagle or two.<br><br>
+
+        A few years later, some of the birds of prey started roosting in a big cottonwood tree that stands alone in one of the Azevedos’ fields, which are about 2.5 miles from the Snake River.<br><br>
+        
+        “In 2006 about two or three (eagles) would come. The following year, another three or four,” Rosemary Azevedo said in a phone interview. “Within a few years, there were 50 or 60.”<br><br>
+        
+        Since then, even more eagles have flocked to what the family affectionately calls the Eagles Landing. They arrive around November, and their numbers grow in harsh winters. In 2017, Paul said, he counted 250.<br><br>
+        
+        The Azevedos and their daughter, Felisha, who also lives on the 70-acre property with her husband, have coexisted alongside the eagles for years. They say the birds seem to recognize them and aren’t bothered by their movements around the property, which is an organic dairy farm. But in recent years the flocks of raptors have been matched by flocks of bird watchers. The family said the attention has caused the eagles to relocate to the back of the property and raised concerns about their own privacy and the safety of sightseers.    
+      </p>
+      <a href="https://magicvalley.com/news/local/hundreds-of-bald-eagles-flock-to-idaho-family-s-trees-each-winter-so-do-bird/article_aa4dc7c7-bde2-57e2-bec9-98c0d1b60234.html" target="_blank">Read the Full Story</a>
+    </div>
+</main>
+
+<footer class="footer">
+ 
+  <div class="footer-main">
+   <img class="map" src="images/preston-map.png" alt="map of Preston, Idaho"> 
+  <div class="contact">
+  <p>
+    Contact Us<br>
+    Email: wil19119@byui.edu<br>
+    Phone: (222)222-2222
+  </p>
+  <div class="social">
+    <a href="https://www.facebook.com/" target="blank">
+      <img src="images/facebook-logo.png" alt="facebook logo">
+    </a>
+      <a href="https://www.instagram.com/?hl=en" target="blank">
+      <img src="images/instagram-logo.png" alt="instagram logo">
+    </a>
+     <a href="https://www.pinterest.com" target="blank">
+     <img  src="images/pinterest-logo.png" alt="pinterest logo"></a>
+    </div>
+  </div>
+    <div class="footer-bar">
+      <p class="copyright">&copy; <span id="copyrightyear"></span> Thyme and Seasons | Idaho | Cari Wilson</p>
+      <p id="date"></p>
+    </div>
+  
+</div>
+   
+</footer>
+
+<script src="js/weather.js"></script>
+<script src="js/fish.js"></script>
+</body>
+</html>

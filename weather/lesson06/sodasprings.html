@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Soda Springs Idaho Page">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/small.css">
+  <link rel="stylesheet" href="css/medium.css">
+  <link rel="stylesheet" href="css/large.css">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+
+  <title>Soda Springs Weather</title>
+</head>
+<body>
+  <header class="header">
+    <img class="logo" src="images/logo.png" alt="Idaho Thyme and Seasons logo">
+    <div class="weatherwatch">
+      <h1>IDAHO THYME & SEASONS</h1>
+      <h2>Weather Watch</h2>
+    </div>
+  </header>
+    <nav class="clearfix">
+      <button onclick="toggleMenu()">&#9776;</button>
+      <ul id="primaryNav" class="hide">
+          <li><a href="index.html">Home</a></li>
+          <li ><a href="preston.html">Preston</a></li>
+          <li><a class="active" href="sodasprings.html">Soda Springs</a></li>
+          <li><a href="fishhaven.html">Fish Haven</a></li> 
+          <li><a href="stormcenter.html">Storm Center</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </nav> 
+<main>
+  
+  <picture >
+    <source srcset="images/sodaspringsmedium.jpg" media="(min-width:640px) and (max-width:1023px)">
+      <source srcset="images/sodaspringslarge.jpg" media="(min-width:1024px)">
+    <img class="preston-pic" src="images/sodaspringssmall.jpg"  alt="Beautiful lake in Preston, Idaho">
+      </picture>
+
+  <div class="weathersummarycontainer">
+    <ul class="weather-summary-list">
+      <li class="weathersummaryheading">Weather Summary</li>
+      <li>Currently: <span id="description"></span></li>
+      <li> High: <span id="temp"> 42</span>&deg; F</li>
+      <li>Wind Chill: <span id="windchill"></span>&deg; F</li>
+      <li>Humidity: <span id="humidity"></span>%</li>
+      <li>Wind Speed: <span id="windspeed"> </span> mph</li>
+    </ul>
+  </div>
+
+  <h2 class="preston-header">Soda Springs, Idaho</h2>
+  <div class="forecast">
+    <h2>5 DAY FORECAST</h2> 
+    <section class="fivedays">
+    <div class="weatherbox">
+      <div class="weatherday" id="day1"></div>
+      <img class="weathericon" id="icon1" src="#"  alt="#">
+      <div class="weathertemp" id="temp1">&#8457;</div>
+    </div>
+    <div class="weatherbox">
+      <div class="weatherday" id="day2"></div>
+      <img class="weathericon" id="icon2" src="#"  alt="#">
+      <div class="weathertemp" id="temp2">&#8457;</div>
+    </div>
+    <div class="weatherbox">
+      <div class="weatherday" id="day3"></div>
+      <img class="weathericon" id="icon3" src="#"  alt="#">
+      <div class="weathertemp" id="temp3">&#8457;</div>
+    </div>
+    <div class="weatherbox">
+      <div class="weatherday" id="day4"></div>
+      <img class="weathericon" id="icon4" src="#"  alt="#">
+      <div class="weathertemp" id="temp4">&#8457;</div>
+    </div>
+    <div class="weatherbox">
+      <div class="weatherday" id="day5"></div>
+      <img class="weathericon" id="icon5" src="#"  alt="#">
+      <div class="weathertemp" id="temp5">&#8457;</div>
+    </div>
+  </section>
+  </div>
+  
+  <div class="stayinpreston"></div>
+  <figure class="preston-hotel">
+    <img  src="images/barley.jpg" alt="harvesting barley">
+  </figure>
+  <div class="article">
+      <h3 class="famous">Record Year for Barley</h3>
+      <p class="famous-paragraph">By Sean Ellis | Idaho Farm Bureau Federation<br><br>
+        Idaho barley farmers set a record for average yield per acre in 2020.
+
+        The average yield per acre for barley grown in Idaho was 110 bushels, according to USDA’s National Agricultural Statistics Service. That beat the previous state record of 107 bushels per acre set in 2016.<br><br>
+        
+        “In 2020, we had the perfect combination of good weather and growing conditions to grow exceptional barley,” said Idaho Barley Commission Administrator Laura Wilder.<br><br>
+        
+        
+        
+        Those favorable conditions resulted in good quality as well, she added.<br><br>
+        
+        “Quality was excellent; we had very few problems around the state,” Wilder said. “The malt houses that received the barley were pleased, the growers were pleased and it was an exceptional year for Idaho barley.”<br><br>
+        
+        There are about 4,000 barley farmers in Idaho and Idaho ranks No. 1 in the nation in total barley production. About 70 percent of the barley produced here is malt barley, which is used in the beer-brewing process.<br><br>
+        
+        The rest is grown for human food or animal feed.<br><br>
+        
+        According to NASS, Idaho farmers produced 55 million bushels of barley off of 500,000 harvested acres last year, which was 33 percent of the nation’s total barley crop.
+      </p>
+      <a href="https://www.postregister.com/farmandranch/crops/grain/idaho-sets-record-for-average-barley-yield/article_35eead52-82ef-5783-9e56-27f012f298ba.html" target="_blank">Read the Full Story</a>
+    </div>
+</main>
+
+<footer class="footer">
+ 
+  <div class="footer-main">
+   <img class="map" src="images/preston-map.png" alt="map of Preston, Idaho"> 
+  <div class="contact">
+  <p>
+    Contact Us<br>
+    Email: wil19119@byui.edu<br>
+    Phone: (222)222-2222
+  </p>
+  <div class="social">
+    <a href="https://www.facebook.com/" target="blank">
+      <img src="images/facebook-logo.png" alt="facebook logo">
+    </a>
+      <a href="https://www.instagram.com/?hl=en" target="blank">
+      <img src="images/instagram-logo.png" alt="instagram logo">
+    </a>
+     <a href="https://www.pinterest.com" target="blank">
+     <img  src="images/pinterest-logo.png" alt="pinterest logo"></a>
+    </div>
+  </div>
+    <div class="footer-bar">
+      <p class="copyright">&copy; <span id="copyrightyear"></span> Thyme and Seasons | Idaho | Cari Wilson</p>
+      <p id="date"></p>
+    </div>
+  
+</div>
+   
+</footer>
+
+<script src="js/weather.js"></script>
+<script src="js/soda.js"></script>
+</body>
+</html>

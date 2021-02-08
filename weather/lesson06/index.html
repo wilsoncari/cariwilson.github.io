@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Weather Home Page">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="../lesson-5/css/small.css">
+  <link rel="stylesheet" href="../lesson-5/css/medium.css">
+  <link rel="stylesheet" href="css/indexlarge.css">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+
+  <title>Idaho Weather Home Page</title>
+</head>
+<body>
+  <header class="header">
+    <img class="logo" src="images/logo.png" alt="Idaho Thyme and Seasons logo">
+    <div class="weatherwatch">
+      <h1>IDAHO THYME & SEASONS</h1>
+      <h2>Weather Watch</h2>
+    </div>
+  </header>
+  
+    <nav class="clearfix">
+      <button onclick="toggleMenu()">&#9776;</button>
+      <ul id="primaryNav" class="hide">
+          <li><a class="active" href="index.html">Home</a></li>
+          <li ><a href="preston.html">Preston</a></li>
+          <li><a href="sodasprings.html">Soda Springs</a></li>
+          <li><a href="fishhaven.html">Fish Haven</a></li> 
+          <li><a href="stormcenter.html">Storm Center</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </nav> 
+
+  <main>
+    <h2>East Idaho News</h2>
+      <p>BOISE — Three Idaho Army National Guard members died Tuesday when their Black Hawk helicopter crashed in bad weather during a training mission southeast of Boise.<br><br>
+
+        The experienced pilots made their last contact at 7:45 p.m. before an emergency signal was activated at a rescue command center in Florida. The cause of the crash is unknown, but snow and fog may have caused limited visibility during the low-flying training exercise over mountainous terrain, officials said Wednesday.<br><br>
+        
+        “One of the greatest things about aviation is that we are, I think, a(n)...extremely close-knit unit,” said Lt. Col. Nicole Washington at a press conference Wednesday. “That also makes it very hard. It leaves a tremendous, indescribable void in our aviation community.”
+      </p>
+    
+    <div class="home-stories">
+      <div class="card1"></div>
+      <div class="card2"></div>
+      <div class="card3"></div>
+       </div> 
+  </main>
+
+  <footer class="footer">
+ 
+    <div class="footer-main">
+     <img class="map" src="images/preston-map.png" alt="map of Preston, Idaho"> 
+    <div class="contact">
+    <p>
+      Contact Us<br>
+      Email: wil19119@byui.edu<br>
+      Phone: (222)222-2222
+    </p>
+    <div class="social">
+      <a href="https://www.facebook.com/" target="blank">
+        <img src="images/facebook-logo.png" alt="facebook logo">
+      </a>
+        <a href="https://www.instagram.com/?hl=en" target="blank">
+        <img src="images/instagram-logo.png" alt="instagram logo">
+      </a>
+       <a href="https://www.pinterest.com" target="blank">
+       <img  src="images/pinterest-logo.png" alt="pinterest logo"></a>
+      </div>
+    </div>
+      <div class="footer-bar">
+        <p class="copyright">&copy; <span id="copyrightyear"></span> Thyme and Seasons | Idaho | Cari Wilson</p>
+        <p id="date"></p>
+      </div>
+    
+  </div>
+     
+  </footer>
+<script src="js/weather.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
