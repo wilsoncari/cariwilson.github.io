@@ -175,7 +175,7 @@ figure.preston-hotel {
 figure.preston-hotel img {
     width:100%;
     box-shadow:2px 2px 2px 0px gray;
-   
+    max-width:450px;
 }
 .article {
     background-color: #EEEdE7;
