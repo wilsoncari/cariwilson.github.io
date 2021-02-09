@@ -34,8 +34,7 @@ fetch(apiFURL + "id=" + Fcity + "&appid=" + Fappid + "&units=" + Funits)
 
     for (i=0; i < fiveday.length; i++){
         
-        let date= new Date(fiveday[i].dt_txt.substr(0, 10));
-
+        let date= new Date(fiveday[i].dt_txt.substr(0, 10)+ "T" + fiveday[i].dt_txt.substr(11, 8) + "Z");
         var weekday = new Array(7);
         weekday[0]="SUN";
         weekday[1]="MON";
