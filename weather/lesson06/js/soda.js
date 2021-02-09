@@ -1,4 +1,4 @@
-const apiURL = "http://api.openweathermap.org/data/2.5/weather?";
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?";
 let q= "5607916";
 let appid = "24f7a33d913e190b464120009f1acb1f";
 let units= "imperial";
@@ -20,7 +20,7 @@ document.getElementById("windspeed").innerHTML=windspeed;
 document.getElementById("humidity").innerHTML=humidity;
 });
 
-const apiFURL = "http://api.openweathermap.org/data/2.5/forecast?";
+const apiFURL = "https://api.openweathermap.org/data/2.5/forecast?";
 let Fcity= "5607916";
 let Fappid = "24f7a33d913e190b464120009f1acb1f";
 let Funits= "imperial";
