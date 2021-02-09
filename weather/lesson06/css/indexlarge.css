@@ -170,5 +170,12 @@
         display: block;
     }
         
+
+    .cards {
+        border: 3px solid #9aa19c;
+        border-radius: 5px;
+        height: 100%;
+        margin-top: 30px;
+    }
     
     }

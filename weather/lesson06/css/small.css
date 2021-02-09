@@ -276,3 +276,14 @@ figure.galleryphotos:hover figcaption {
     display:block;
 }
 
+.townevents{
+    font-family:"Poppins", "Tahoma", sans-serif;
+    font-size: 2em;
+    text-align: center;
+    color:white;
+    background-color:#333;
+    padding-top:20px;
+    padding-bottom:20px;
+    margin-bottom:20px;
+}
+

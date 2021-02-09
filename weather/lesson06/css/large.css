@@ -160,6 +160,9 @@ form label.severity {
 .town {
     display: block;
 }
+.cards {
+    border: 3px solid black;
+}
 
 }
 
