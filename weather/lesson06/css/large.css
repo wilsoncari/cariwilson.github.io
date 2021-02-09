@@ -163,6 +163,9 @@ form label.severity {
 .cards {
     border: 3px solid black;
 }
+.preston-hotel {
+max-width: 600px;
+}
 
 }
 
