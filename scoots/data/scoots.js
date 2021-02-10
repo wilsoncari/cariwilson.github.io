@@ -59,9 +59,8 @@ fetch(apiFURL + "id=" + Fcity + "&appid=" + Fappid + "&units=" + Funits)
         document.getElementById("temp" + (i +1)).innerHTML = temp.toFixed(0) + "&#8457";
     }
 
-
-
 });
+
 
 const RentalsapiUrl = "https://wilsoncari.github.io/cariwilson.github.io/scoots/data/data.json";
 fetch(RentalsapiUrl)
@@ -72,10 +71,32 @@ fetch(RentalsapiUrl)
         const rentals = jsonObject['rentals']; 
         for (let i = 0; i < rentals.length; i++ ){
          console.log(rentals[i].type);   
-        let rentalinfo = document.createElement('section');
-let h2= document.createElement('h2');
-let p=document.createElement('p');
-let img=document.createElement('img');
+    /*let rentalinfo = document.createElement('section');
+    let h2= document.createElement('h2');
+    let p=document.createElement('p');
+    let p1=document.createElement('p');
+    let p2=document.createElement('p');
+    let p3=document.createElement('p');
+    let p4=document.createElement('p');
+    let img=document.createElement('img');
+h2.textContent=rentals[i].type + ' ' + rentals[i].model;
+rentalinfo.appendChild(h2);
+p.textContent='seats: ' + rentals[i].seats;
+rentalinfo.appendChild(p);
+p1.textContent='Half-day (3 hours) rental with reservation: ' + rentals[i].reservedhalf;
+rentalinfo.appendChild(p);
+p2.textContent='Full-day rental with reservation: ' + rentals[i].reservedfull;
+rentalinfo.appendChild(p);
+p3.textContent='Half-day (3 hours) rental/walk-ins: ' + rentals[i].walkinhalf;
+rentalinfo.appendChild(p);
+p4.textContent='Full-day rental/walk-ins: ' + rentals[i].walkinfull;
+rentalinfo.appendChild(p);
+img.setAttribute('src', rentals[i].img);
+img.setAttribute('alt', rentals[i].type + ' ' + rentals[i].model + '-' + i+1);
+card.appendChild(img);
+document.querySelector('div.rentalinfo').appendChild(rentalinfo);
+
+*/
 
         }
       });

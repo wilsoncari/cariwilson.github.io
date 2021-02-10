@@ -8,8 +8,8 @@
         "reservedhalf": "$20",
         "reservedfull": "$30",
         "walkinhalf":"$25",
-        "walkinfull": "35"
-        "imageurl" : "https://";
+        "walkinfull": "35",
+        "img": "images/hondametro.jpeg"
       },
       {
         "type": "scooter",
@@ -18,7 +18,8 @@
         "reservedhalf": "$30",
         "reservedfull": "$40",
         "walkinhalf":"$35",
-        "walkinfull": "45"
+        "walkinfull": "45",
+        "img": "images/hondadio.jpeg"
       },
       {
         "type": "scooter",
@@ -27,7 +28,8 @@
         "reservedhalf": "$40",
         "reservedfull": "$50",
         "walkinhalf":"$45",
-        "walkinfull": "$55"
+        "walkinfull": "$55",
+        "img": "images/hondapcx.jpeg"
       },
       {
         "type": "atv",
@@ -36,7 +38,8 @@
         "reservedhalf": "$50",
         "reservedfull": "$70",
         "walkinhalf":"$60",
-        "walkinfull": "$80"
+        "walkinfull": "$80",
+        "img": "images/hondapioneer.jpeg"
       },
       
       {
@@ -46,7 +49,8 @@
         "reservedhalf": "$70",
         "reservedfull": "$100",
         "walkinhalf":"$85",
-        "walkinfull": "$125"
+        "walkinfull": "$125",
+        "img": "images/jeepwrangler4doors.jpeg"
       },
       {
         "type": "jeep",
@@ -55,7 +59,8 @@
         "reservedhalf": "$60",
         "reservedfull": "$85",
         "walkinhalf":"$70",
-        "walkinfull": "$90"
+        "walkinfull": "$90",
+        "img": "images/jeepwrangler2door.jpg"
       }
     ]
 }
