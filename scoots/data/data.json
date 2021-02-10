@@ -9,6 +9,7 @@
         "reservedfull": "$30",
         "walkinhalf":"$25",
         "walkinfull": "35"
+        "imageurl" : "https://";
       },
       {
         "type": "scooter",
@@ -20,6 +21,15 @@
         "walkinfull": "45"
       },
       {
+        "type": "scooter",
+        "model": "pcx",
+        "seats": "2",
+        "reservedhalf": "$40",
+        "reservedfull": "$50",
+        "walkinhalf":"$45",
+        "walkinfull": "$55"
+      },
+      {
         "type": "atv",
         "model": "pioneer",
         "seats": "4",
@@ -28,6 +38,7 @@
         "walkinhalf":"$60",
         "walkinfull": "$80"
       },
+      
       {
         "type": "jeep",
         "model": "4door",

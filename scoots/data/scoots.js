@@ -16,9 +16,8 @@ let desc=jsObject.weather[0].description;
 let humidity=jsObject.main.humidity;
 let windspeed=jsObject.wind.speed;
 let windspeedexponent=Math.pow(windspeed, .16);
-let wc=35.74+(.6215*temp)-(35.75*windspeedexponent)+(.4275*temp*windspeedexponent);
 
-document.getElementById("windchill").innerHTML=wc.toFixed(0);
+
 document.getElementById("temp").innerHTML=temp.toFixed(0);
 document.getElementById("description").innerHTML=desc;
 document.getElementById("windspeed").innerHTML=windspeed;
@@ -37,8 +36,8 @@ fetch(apiFURL + "id=" + Fcity + "&appid=" + Fappid + "&units=" + Funits)
             return list.dt_txt.includes("12:00:00");
         });
 
-    for (i=0; i < fiveday.length; i++){
-        
+    for (i=4; i < fiveday.length; i++){
+    
         let date= new Date(fiveday[i].dt_txt.substr(0, 10)+ "T" + fiveday[i].dt_txt.substr(11, 8) + "Z");
         var weekday = new Array(7);
         weekday[0]="SUN";
@@ -64,8 +63,19 @@ fetch(apiFURL + "id=" + Fcity + "&appid=" + Fappid + "&units=" + Funits)
 
 });
 
-fetch("./data.json")
-.then(response => {
-   return response.json();
-})
-.then(data => console.log(data));
+const RentalsapiUrl = "https://wilsoncari.github.io/cariwilson.github.io/scoots/data/data.json";
+fetch(RentalsapiUrl)
+      .then(function (response) {
+        return response.json();
+      })
+      .then(function (jsonObject) {
+        const rentals = jsonObject['rentals']; 
+        for (let i = 0; i < rentals.length; i++ ){
+         console.log(rentals[i].type);   
+        let rentalinfo = document.createElement('section');
+let h2= document.createElement('h2');
+let p=document.createElement('p');
+let img=document.createElement('img');
+
+        }
+      });
