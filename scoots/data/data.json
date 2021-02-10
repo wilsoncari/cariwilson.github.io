@@ -2,7 +2,7 @@
 {
     "rentals": [
       {
-        "type": "Scooter",
+        "type": "Scooter: ",
         "model": "Honda Metro",
         "seats": "1",
         "reservedhalf": "$20",
@@ -12,7 +12,7 @@
         "img": "images/hondametro.jpeg"
       },
       {
-        "type": "Scooter",
+        "type": "Scooter: ",
         "model": "Honda Dio",
         "seats": "2",
         "reservedhalf": "$30",
@@ -22,7 +22,7 @@
         "img": "images/hondadio.jpeg"
       },
       {
-        "type": "Scooter",
+        "type": "Scooter: ",
         "model": "Honda PCX",
         "seats": "2",
         "reservedhalf": "$40",
@@ -32,7 +32,7 @@
         "img": "images/hondapcx.jpeg"
       },
       {
-        "type": "ATV",
+        "type": "ATV: ",
         "model": "Honda Pioneer",
         "seats": "4",
         "reservedhalf": "$50",
@@ -43,7 +43,7 @@
       },
       
       {
-        "type": "Jeep Wrangler",
+        "type": "Jeep Wrangler: ",
         "model": "4 Door",
         "seats": "5",
         "reservedhalf": "$70",
@@ -53,7 +53,7 @@
         "img": "images/jeepwrangler4doors.jpeg"
       },
       {
-        "type": "Jeep Wrangler",
+        "type": "Jeep Wrangler: ",
         "model": "2 Door",
         "seats": "4",
         "reservedhalf": "$60",
