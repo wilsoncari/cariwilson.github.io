@@ -70,7 +70,7 @@ fetch(RentalsapiUrl)
       .then(function (jsonObject) {
         const rentals = jsonObject['rentals']; 
         for (let i = 0; i < rentals.length; i++ ){
-         console.log(rentals[i].type);   
+         console.log(rentals[i].reservedhalf);   
     let rentalinfo = document.createElement('section');
     let h2= document.createElement('h2');
     let p=document.createElement('p');
@@ -84,13 +84,13 @@ rentalinfo.appendChild(h2);
 p.textContent='seats: ' + rentals[i].seats;
 rentalinfo.appendChild(p);
 p1.textContent='Half-day (3 hours) rental with reservation: ' + rentals[i].reservedhalf;
-rentalinfo.appendChild(p);
+rentalinfo.appendChild(p1);
 p2.textContent='Full-day rental with reservation: ' + rentals[i].reservedfull;
-rentalinfo.appendChild(p);
+rentalinfo.appendChild(p2);
 p3.textContent='Half-day (3 hours) rental/walk-ins: ' + rentals[i].walkinhalf;
-rentalinfo.appendChild(p);
+rentalinfo.appendChild(p3);
 p4.textContent='Full-day rental/walk-ins: ' + rentals[i].walkinfull;
-rentalinfo.appendChild(p);
+rentalinfo.appendChild(p4);
 img.setAttribute('src', rentals[i].img);
 img.setAttribute('alt', rentals[i].type + ' ' + rentals[i].model + '-' + i+1);
 rentalinfo.appendChild(img);

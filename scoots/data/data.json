@@ -8,7 +8,7 @@
         "reservedhalf": "$20",
         "reservedfull": "$30",
         "walkinhalf":"$25",
-        "walkinfull": "35",
+        "walkinfull": "$35",
         "img": "images/hondametro.jpeg"
       },
       {
@@ -18,7 +18,7 @@
         "reservedhalf": "$30",
         "reservedfull": "$40",
         "walkinhalf":"$35",
-        "walkinfull": "45",
+        "walkinfull": "$45",
         "img": "images/hondadio.jpeg"
       },
       {
