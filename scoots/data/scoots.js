@@ -71,7 +71,7 @@ fetch(RentalsapiUrl)
         const rentals = jsonObject['rentals']; 
         for (let i = 0; i < rentals.length; i++ ){
          console.log(rentals[i].type);   
-    /*let rentalinfo = document.createElement('section');
+    let rentalinfo = document.createElement('section');
     let h2= document.createElement('h2');
     let p=document.createElement('p');
     let p1=document.createElement('p');
@@ -93,10 +93,9 @@ p4.textContent='Full-day rental/walk-ins: ' + rentals[i].walkinfull;
 rentalinfo.appendChild(p);
 img.setAttribute('src', rentals[i].img);
 img.setAttribute('alt', rentals[i].type + ' ' + rentals[i].model + '-' + i+1);
-card.appendChild(img);
+rentalinfo.appendChild(img);
 document.querySelector('div.rentalinfo').appendChild(rentalinfo);
 
-*/
 
         }
       });

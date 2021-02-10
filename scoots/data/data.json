@@ -2,8 +2,8 @@
 {
     "rentals": [
       {
-        "type": "scooter",
-        "model": "metro",
+        "type": "Scooter",
+        "model": "Honda Metro",
         "seats": "1",
         "reservedhalf": "$20",
         "reservedfull": "$30",
@@ -12,8 +12,8 @@
         "img": "images/hondametro.jpeg"
       },
       {
-        "type": "scooter",
-        "model": "dio",
+        "type": "Scooter",
+        "model": "Honda Dio",
         "seats": "2",
         "reservedhalf": "$30",
         "reservedfull": "$40",
@@ -22,8 +22,8 @@
         "img": "images/hondadio.jpeg"
       },
       {
-        "type": "scooter",
-        "model": "pcx",
+        "type": "Scooter",
+        "model": "Honda PCX",
         "seats": "2",
         "reservedhalf": "$40",
         "reservedfull": "$50",
@@ -32,8 +32,8 @@
         "img": "images/hondapcx.jpeg"
       },
       {
-        "type": "atv",
-        "model": "pioneer",
+        "type": "ATV",
+        "model": "Honda Pioneer",
         "seats": "4",
         "reservedhalf": "$50",
         "reservedfull": "$70",
@@ -43,8 +43,8 @@
       },
       
       {
-        "type": "jeep",
-        "model": "4door",
+        "type": "Jeep Wrangler",
+        "model": "4 Door",
         "seats": "5",
         "reservedhalf": "$70",
         "reservedfull": "$100",
@@ -53,8 +53,8 @@
         "img": "images/jeepwrangler4doors.jpeg"
       },
       {
-        "type": "jeep",
-        "model": "2door",
+        "type": "Jeep Wrangler",
+        "model": "2 Door",
         "seats": "4",
         "reservedhalf": "$60",
         "reservedfull": "$85",
