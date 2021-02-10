@@ -2,10 +2,8 @@ header {
     background-color:#EEEdE7;
     display:flex;
     align-items: center;
-    padding-left:2%;
-    padding-right:2%;
     justify-content:center;
-    width:100%
+    width:100%;
 }
 
 .logo {
@@ -17,6 +15,8 @@ nav{
     font-family:"Nunito", Verdana, sans-serif;
     background-color:#dbb29a;
     text-align: center;
+    border-top:dotted 2px white;
+    border-bottom:dotted 2px white;
 }
 nav button{
     border:none;
@@ -69,6 +69,113 @@ nav ul.hide {
         margin-bottom:5px;
         box-shadow: 3px 3px 3px 0px gray;
 }
+main {
+    background-color:#d4ebeb;
+    width:100%;
+    
+}
+.ride {
+    width:80%;
+    margin:0 12% 0 8%;
+    padding:20px;
+    font-family:"Nunito", "Verdana", "sans-serif";
+    background-color:#d4ebeb;
+}
+a{
+    color:#bb7045;
+    font-family:"Poppins", "Tahoma", sans-serif;
+}
+a:hover {
+    color:white;
+}
+
+main h1 {
+    font-family:"Poppins", "Tahoma", "sans-serif";
+}
+.scooting {
+ display:flex;
+ flex-direction: row;
+ justify-content:center;
+ flex-wrap: wrap;
+}
+.scooting img {
+    padding:10px;
+}
+
+.rent {
+    width:80%;
+    margin:0 10% 0 10%;
+}
+.rent h1 {
+    text-align: center;
+    padding-left:2%;
+    padding-top:2%;
+}
+.weathersummarycontainer {
+    background-color:#dbb29a; 
+    border:dotted 2px white;
+    
+    width:100%;
+}
+.weather-summary-list {
+    padding-top:20px;
+    padding-bottom:20px;
+    font-family:"Poppins", Tahoma, sans-serif;
+    list-style-type:none;
+    text-align: center;
+    line-height:2em;
+    padding-left: 0px;
+}
+
+.weathersummaryheading{
+    font-family:"Poppins", Tahoma, sans-serif;
+    font-size:1.5em;
+    padding-bottom:20px;
+}
+.fivedays {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    padding:30px;
+    
+}
+.weatherbox {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border:1px solid white;
+    font-family:"Nunito", Verdana, sans-serif;
+    margin:10px;
+    
+}
+.weathericon {
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+    padding:20px;
+    width:50px;
+}
+.forecast h2{
+    margin:0;
+    padding-top:20px;font-size:2em;
+    font-family:"Nunito", Verdana, sans-serif;
+    text-align: center;
+}
+.weatherday {
+    background-color:#d3885c;
+    width:100%;
+    text-align:center;
+    color:#EEEdE7;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+.weathertemp {
+    background-color:#d3885c;
+    width:100%;
+    text-align: center;
+    color:#EEEdE7;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
 
 .footer-main {
     background-color:#EEEdE7;
@@ -77,6 +184,7 @@ nav ul.hide {
     flex-direction: column;
    align-items: center;
    position:relative;
+   
 }
 
 .googlemaps {
@@ -93,15 +201,18 @@ nav ul.hide {
 .contactinfo {
     text-align: center;
 }
-
+.footer-main {
+    border:dotted 2px white; 
+}
 .footer-bar {
-    background-color: #EEEdE7;
+    background-color: #dbb29a;
     position: absolute;
-    top:340px;
+    top:150px;
     width:100%;
     right:0px;
     text-align: center;
     margin:0;
+    border:dotted 2px white;
 }
 
 .social img {
@@ -109,8 +220,13 @@ nav ul.hide {
     padding:5px;
     
    }
-   .maps {
-       width:20%;
-       height: 20%;
-       padding:20px;
+   .googlemaps {
+       background-color:#d4ebeb;
+       width:100%;
    }
+   .maps {
+    width:200px;
+    height:100%;
+    padding:20px;
+   }
+   

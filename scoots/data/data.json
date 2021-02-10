@@ -1,0 +1,52 @@
+
+{
+    "rentals": [
+      {
+        "type": "scooter",
+        "model": "metro",
+        "seats": "1",
+        "reservedhalf": "$20",
+        "reservedfull": "$30",
+        "walkinhalf":"$25",
+        "walkinfull": "35"
+      },
+      {
+        "type": "scooter",
+        "model": "dio",
+        "seats": "2",
+        "reservedhalf": "$30",
+        "reservedfull": "$40",
+        "walkinhalf":"$35",
+        "walkinfull": "45"
+      },
+      {
+        "type": "atv",
+        "model": "pioneer",
+        "seats": "4",
+        "reservedhalf": "$50",
+        "reservedfull": "$70",
+        "walkinhalf":"$60",
+        "walkinfull": "$80"
+      },
+      {
+        "type": "jeep",
+        "model": "4door",
+        "seats": "5",
+        "reservedhalf": "$70",
+        "reservedfull": "$100",
+        "walkinhalf":"$85",
+        "walkinfull": "$125"
+      },
+      {
+        "type": "jeep",
+        "model": "2door",
+        "seats": "4",
+        "reservedhalf": "$60",
+        "reservedfull": "$85",
+        "walkinhalf":"$70",
+        "walkinfull": "$90"
+      }
+    ]
+}
+
+      
