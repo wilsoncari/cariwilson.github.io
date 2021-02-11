@@ -228,7 +228,7 @@ main h1 {
 }
 .rentalinfo {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     justify-items:center;
     text-align: center;
     border:white 2px dotted;
@@ -249,7 +249,7 @@ main div section  {
 }
 .rentalinfo p {
     font-family:"Nunito", Verdana, sans-serif;
-    text-align:left;
+    text-align:center;
     padding-left:50px;
     padding-right:10px;
 }

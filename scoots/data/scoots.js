@@ -94,7 +94,7 @@ rentalinfo.appendChild(p4);
 img.setAttribute('src', rentals[i].img);
 img.setAttribute('alt', rentals[i].type + ' ' + rentals[i].model + '-' + i+1);
 rentalinfo.appendChild(img);
-document.querySelector('div.rentalinfo').appendChild(rentalinfo);
+document.querySelector('table.rentalinfo').appendChild(rentalinfo);
 
 
         }
