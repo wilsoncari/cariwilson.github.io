@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Scoots Rental Company">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/small.css">
+  <link rel="stylesheet" href="css/medium.css">
+  <link rel="stylesheet" href="css/large.css">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+
+  <title>Scoots</title>
+</head>
+<body>
+<header class="header">
+    <div class="companyname">
+        <h1>SCOOTS RENTAL CO.</h1>
+        <h2>Cozumel, Mexico</h2>
+      </div>
+    <img class="logo" src="images/scootslogo.png" alt="Scoots logo">
+    
+  </header>
+  
+  <nav class="clearfix">
+    <button onclick="toggleMenu()">&#9776;</button>
+    <ul id="primaryNav" class="hide">
+        <li><a  href="index.html">Home</a></li>
+        <li><a  href="rentals.html">Rentals</a></li>
+        <li ><a class="active" href="reservations.html">Reservations</a></li>
+        <li><a href="tours.html">Tours</a></li>    
+        <li><a href="contact.html">Contact</a></li>    
+    </ul>
+  </nav> 
+    <main>
+      <picture >
+        <source srcset="images/reservations-hero-medium.jpg" media="(min-width:640px) and (max-width:1023px)">
+        <source srcset="images/reservations-hero-large.jpg" media="(min-width:1024px)">
+        <img class="hero-image" src="images/reservations-hero-small.jpg"  alt="Scooters in front of beach in Cozumel Mexico">
+      </picture>
+   
+      <div class="ride">
+        <form method="get" action="thanks.html">
+            <h1>Reserve Your Ride Now!</h1>
+            <fieldset>
+            <legend>Rental Information</legend>
+            <label class="top">Rental Date<input type="date" name="rentaldate" placeholder="01/02/2021"></label>
+            <label class="top">Rental Type:
+              <input list="rentaltype" name="rentaltype">
+              <datalist id="rentaltype">
+                <option value="Honda Metro (1 seater Scooter)"></option>
+                <option value="Honda Dio (2 seater scooter)"></option>
+                <option value="Honda CPX (2 seater scooter)"></option>
+                <option value="Honda Pioneer (4 seater ATV)"></option>
+                <option value="Jeep Wrangler (2 door)"></option>
+                <option value="Jeep Wrangler (4 door)"></option>
+              </datalist>
+            </label>
+            <label class=top>How long would you like your ride?
+                <input list="rentaltime" name="rentaltime">
+                <datalist id="rentaltime">
+                    <option value="Half-day (3 hrs)"></option>
+                    <option value="Full-day"></option>
+                    <option value="2 Days"></option>
+                    <option value="3 Days"></option>
+                    <option value="More than 3 days"></option>
+            </datalist>
+            </label>
+            </fieldset>
+            
+            <fieldset class="infoinput">
+                <legend>Contact Information</legend>
+                <label  class="top">Full Name* <input  type="text" name="fullname" pattern="([a-zA-Z\s]){5,}" placeholder="John Doe" required></label>
+                <label  class="top">Email <input type="email" name="email" placeholder="someone@email.com"></label>
+                <label  class="top">Phone* <input type="tel" name="phone" placeholder="555-555-5555" required></label>
+                <label  class="top">Address* <input type="text" name="address" placeholder="555 Yellow Brick Road" required></label>
+                <label  class="top">City* <input type="text" name="city" placeholder="Mayberry" required></label>
+                <label  class="top">State* <input type="text" name="State" placeholder="New York" required></label>
+                <label  class="top">Zip Code* <input type="text" pattern="(\d{5}([\-]\d{4})?)" placeholder="32323" required ></label>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Additional Information</legend>
+                <label  class="top">Comments:</label> 
+                <label class="top"><textarea name="comments"></textarea></label>
+              </fieldset>
+          
+              <input type="submit" name="submit" value="Reserve Now" class="submitform">
+            </div>
+        </form>
+    </main>
+
+<footer class="footer">
+ 
+    <div class="footer-main">
+        
+    <div class="contact">
+    <p class="contactinfo">
+      Contact Us<br>
+      Email: scoots@email.com<br>
+      Phone: (222)222-2222
+    </p>
+    <div class="social">
+      <a href="https://www.facebook.com/" target="blank">
+        <img src="images/facebook-logo.png" alt="facebook logo">
+      </a>
+        <a href="https://www.instagram.com/?hl=en" target="blank">
+        <img src="images/instagram-logo.png" alt="instagram logo">
+      </a>
+       <a href="https://www.pinterest.com" target="blank">
+       <img  src="images/pinterest-logo.png" alt="pinterest logo"></a>
+      </div>
+    </div>
+      <div class="footer-bar">
+        <p class="copyright">&copy; <span id="copyrightyear"></span> Scoots | Cozumel, Mexico | Cari Wilson | <a href="attributions.html">attributions</a></p>
+        <p id="date"></p>
+      </div>
+  </div>
+     
+  </footer>
+  <script src="data/scoots.js"></script>
+</body>
+</html>

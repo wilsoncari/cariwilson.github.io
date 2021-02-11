@@ -3,6 +3,8 @@ function toggleMenu() {
     document.getElementById("primaryNav").classList.toggle("hide");
 }
 
+
+
 const apiURL = "https://api.openweathermap.org/data/2.5/weather?";
 let q= "3530103";
 let appid = "24f7a33d913e190b464120009f1acb1f";
@@ -99,3 +101,14 @@ document.querySelector('table.rentalinfo').appendChild(rentalinfo);
 
         }
       });
+
+      let d= new Date(document.lastModified);
+
+      let lastMonth=d.getMonth()+1;
+      let lastDay=d.getDate();
+      let lastYear=d.getFullYear();
+      
+      
+      document.getElementById("date").textContent= lastMonth + "\/" +  lastDay  + "\/" + lastYear + " " + d.getHours() + ":" + (d.getMinutes()<10?'0':'') + d.getMinutes() 
+      let z=new Date();
+      document.getElementById("copyrightyear").textContent=z.getFullYear();
