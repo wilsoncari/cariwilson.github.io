@@ -103,21 +103,18 @@ main h1 {
     box-shadow:3px 3px 3px 0 gray;
 }
 
-.rent {
-    width:80%;
-    margin:0 10% 0 10%;
-}
+
 .rent h1 {
     text-align: center;
     padding-left:2%;
     padding-top:2%;
 }
 .weathersummarycontainer {
-    background-color:#dbb29a; 
-    border:dotted 2px white;
-    
+    background-color:#d4ebeb;
+    border-top:dotted 2px white;
     width:100%;
 }
+
 .weather-summary-list {
     padding-top:20px;
     padding-bottom:20px;
@@ -144,7 +141,7 @@ main h1 {
     flex-direction: row;
     justify-content: center;
     font-family:"Nunito", Verdana, sans-serif;
-    background-color:#d3885c;
+    background-color:#dbb29a;
     margin-top:20px;
 }
 .forecast h2{
@@ -154,7 +151,7 @@ main h1 {
     text-align: center;
 }
 .weatherday {
-    background-color:#d3885c;
+    background-color:#dbb29a;
     width:10%;
     text-align:center;
     color:#EEEdE7;
@@ -162,7 +159,7 @@ main h1 {
     padding-bottom:5px;
 }
 .weathertemp {
-    background-color:#d3885c;
+    background-color:#dbb29a;
     width:10%;
     text-align: center;
     color:#EEEdE7;
@@ -177,7 +174,7 @@ main h1 {
     flex-direction: column;
    align-items: center;
    position:relative;
-   
+   border:dotted 2px white; 
 }
 
 .googlemaps {
@@ -194,9 +191,7 @@ main h1 {
 .contactinfo {
     text-align: center;
 }
-.footer-main {
-    border:dotted 2px white; 
-}
+
 .footer-bar {
     background-color: #dbb29a;
     position: absolute;
@@ -218,11 +213,43 @@ main h1 {
        width:100%;
    }
    footer a {
-       font-family:"Times New Roman", serif;
+       font-family:Georgia, 'Times New Roman', Times, serif;
+       color: black;
    }
    .maps {
-    width:200px;
+    width:300px;
     height:100%;
     padding:20px;
    }
-   
+
+   h1 {
+    text-align: center;
+    font-family: "Poppins", Tahoma, sans-serif;
+}
+.rentalinfo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items:center;
+    text-align: center;
+    border:white 2px dotted;
+}
+
+main div section  {
+    background-color:#EEEdE7;
+    width:100%;
+    padding-bottom:20px;
+}
+
+.rentalinfo img {
+    width: 40%;
+    box-shadow:3px 3px 3px 3px gray;
+}
+.rentalinfo h2 {
+    font-family:"Nunito", Verdana, sans-serif;
+}
+.rentalinfo p {
+    font-family:"Nunito", Verdana, sans-serif;
+    text-align:left;
+    padding-left:50px;
+    padding-right:10px;
+}
