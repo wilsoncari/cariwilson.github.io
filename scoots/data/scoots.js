@@ -81,7 +81,7 @@ fetch(RentalsapiUrl)
     let img=document.createElement('img');
 h2.textContent=rentals[i].type + ' ' + rentals[i].model;
 rentalinfo.appendChild(h2);
-p.textContent='seats: ' + rentals[i].seats;
+p.textContent='Seats: ' + rentals[i].seats;
 rentalinfo.appendChild(p);
 p1.textContent='Half-day (3 hrs) rental with reservation: ' + rentals[i].reservedhalf;
 rentalinfo.appendChild(p1);
