@@ -1,6 +1,21 @@
 @media only screen and (min-width: 64rem) {
 
-nav button{
+    .logo {
+        width:200px;
+        display:flex;
+        padding:20px;
+    }
+
+    .companyname h2 {
+        font-family:"Nunito", Verdana, sans-serif;
+        font-size:2em;
+    }
+    .companyname h1{
+        font-size:3em;
+        margin-bottom:-10px;
+    }
+
+    nav button{
     display:none;
     }
 nav ul.hide {
@@ -43,5 +58,11 @@ nav ul li {
     font-family: "Nunito", "Verdana", sans-serif;
     font-size:1.5em;
 }
+.tourcontainer h2{
+    font-family:"Poppins", "Tahoma", sans-serif;
+    font-size: 2em;
+}
+
+
 
 }

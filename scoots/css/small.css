@@ -7,7 +7,7 @@ header {
 }
 
 .logo {
-    width:200px;
+    width:150px;
     display:flex;
     padding:20px;
 }
@@ -53,12 +53,12 @@ nav ul.hide {
     display:none;
 }
 .companyname h1{
-    font-size:3em;
+    font-size:2em;
     margin-bottom:-10px;
 }
 .companyname h2 {
     font-family:"Nunito", Verdana, sans-serif;
-    font-size:2em;
+    font-size:1.5em;
    
 }
 .hero-image {
@@ -341,10 +341,12 @@ form input.submitform {
 
 .thanks{
     font-family:"Poppins", Tahoma, sans-serif;
+    margin:0;
     
 }
 .thanksp {
     font-family:"Nunito", Verdana, sans-serif;
+    margin:0 20px;
 }
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -383,7 +385,7 @@ textarea {
 
 .tourcontainer h2{
     font-family:"Poppins", "Tahoma", sans-serif;
-    font-size: 2em;
+    font-size: 1em;
 }
 
 .tourcontainer p {
