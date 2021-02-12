@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Scoots Rental Company">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/small.css">
+  <link rel="stylesheet" href="css/medium.css">
+  <link rel="stylesheet" href="css/large.css">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+
+  <title>Scoots-Tours</title>
+</head>
+<body>
+<header class="header">
+    <div class="companyname">
+        <h1>SCOOTS RENTAL CO.</h1>
+        <h2>Cozumel, Mexico</h2>
+      </div>
+    <img class="logo" src="images/scootslogo.png" alt="Scoots logo">
+    
+  </header>
+
+    <nav class="clearfix">
+      <button onclick="toggleMenu()">&#9776;</button>
+      <ul id="primaryNav" class="hide">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="rentals.html">Rentals</a></li>
+          <li ><a href="reservations.html">reservations</a></li>
+          <li><a class="active" href="tours.html">Tours</a></li>    
+          <li><a href="contact.html">Contact</a></li>    
+      </ul>
+    </nav> 
+    <main>
+
+        <picture >
+            <source srcset="images/tours-hero-medium.jpg" media="(min-width:640px) and (max-width:1023px)">
+            <source srcset="images/tours-hero-large.jpg" media="(min-width:1024px)">
+            <img class="hero-image" src="images/tours-hero-small.jpg"  alt="Beach in Cozumel Mexico">
+          </picture>
+
+
+<div class="tourcontainer">
+
+        <div class="tour1">
+            <figure class="tourphotoleft">
+            <img  src="images/tulum.jpg" alt="Tulum Mayan Ruins">
+            </figure>
+            <h2>Tulum Mayan Ruins</h2>
+            <p>This ride takes you 30 minutes south of Playa Del Carmen to see the ancient Tulum Mayan Ruins. Archaeologists have discovered these ruins having been inhabited as early as 564 A.D. and never had more than an estimated 1,600 people living there at one time. 
+            Tulum’s rich history and beautiful scenery make this site a must see while visiting Cozumel! What better way to see it than driving a rental from Scoots down the coastline? Stop and take a dip in the beautiful clear Caribbean or enjoy some authentic cuisine at one of the many local restaurants. People of all ages will enjoy the trip!
+            </p>
+        </div>
+       
+        <div class="tour2">  
+            <figure class="tourphotoright" >
+                <img src="images/parque-beach.jpg" alt="Parque Fundadores Beach">
+                </figure>   
+            <h2>Parque Los Fundadores</h2>
+            <p>Or “Founding Fathers Park” is one of the original areas in Playa Del Carmen just at the tip of Avenue Juarez and next to the Cozumel Ferry Pie.
+            Take a ride to the heart of Playa to get a taste of true Mexican culture. Just at the end of 5th Avenue surrounded by shops, restaurants, and street performers, such as Mayan dancers, Parque Los Fundadores does not disappoint. You can park your scoots rental and stay a while, or just drive on through. Either way, with the fun and lively environment, you’ll be glad you dropped by! 
+            </p>
+            
+        </div>
+
+        <div class="tour1">
+            <figure class="tourphotoleft">
+            <img src="images/coral-reefs-monument.jpg" alt="quiet beach in Cozumel">
+            </figure>
+            <div>
+            <h2>Coral Reefs Monument</h2>
+            <p>This beautiful monument, located in San Miguel, Cozumel, is perfect for an evening ride. It stands next to the Ferry Pier right on the promenade. The fountain at sunset is stunning against the Caribbean backdrop. Park your ride and take a walk along the beach or catch dinner at one of the local restaurants. You’re sure to have a great time at Coral Reefs.</p>   
+            </div>
+        </div>
+        
+        <div class="tour2">
+            <figure class="tourphotoright" >
+                <img src="images/snorkeling.jpg" alt="Man snorkeling in crystal blue water">
+                </figure> 
+            <h2>Adventure Jeep Tours</h2>
+            <p>
+            For the adventure seekers we recommend the Jeep tour. These can be guided by your own personal tour guide, or you can take an itenerary and go! You can customize the tour to your liking. Included in the itinerary is a trip to a private beach where you can rent wave runners and snorkeling gear. Cozumel is famous for their beautiful reefs. You have an option of hiring your own private tour guide who speaks Spanish and knows the ins and outs of Cozumel. Our tour guides will help you customize your jeep tour to make the most of your trip. Other excursions available are ziplining through the jungle, fishing and snorkeling from a catemeran, or swimming with dolphins. Be sure to ask us for pricing on these guided tours. </p> 
+            </p>
+            
+        </div>
+    </div>
+
+    </main>
+
+    <footer class="footer">
+      <div class="footer-main">
+        <div class="contact">
+                <p class="contactinfo">
+                Contact Us<br>
+                Email: scoots@email.com<br>
+                Phone: (222)222-2222
+                </p>
+            <div class="social">
+                <a href="https://www.facebook.com/" target="blank">
+                <img src="images/facebook-logo.png" alt="facebook logo">
+                </a>
+                <a href="https://www.instagram.com/?hl=en" target="blank">
+                <img src="images/instagram-logo.png" alt="instagram logo">
+                </a>
+                <a href="https://www.pinterest.com" target="blank">
+                <img  src="images/pinterest-logo.png" alt="pinterest logo">
+                </a>
+            </div>
+        </div>
+          <div class="footer-bar">
+            <p class="copyright">&copy; <span id="copyrightyear"></span> Scoots | Cozumel, Mexico | Cari Wilson | <a href="attributions.html">attributions</a></p>    </p>
+            <p id="date"></p>  
+        </div>
+      </div>
+         
+      </footer>
+    <script src="data/scoots.js"></script>
+    </body>
+    </html>
+    
+    

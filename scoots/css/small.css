@@ -72,6 +72,7 @@ nav ul.hide {
 main {
     background-color:#d4ebeb;
     width:100%;
+    padding-bottom:20px;
     
 }
 .ride {
@@ -114,6 +115,7 @@ main h1 {
     background-color:#d4ebeb;
     border-top:dotted 2px white;
     width:100%;
+    
 }
 
 .weather-summary-list {
@@ -136,6 +138,7 @@ main h1 {
     flex-direction: row;
     justify-content: center;
     
+    
 }
 .weatherbox {
     display:flex;
@@ -144,6 +147,7 @@ main h1 {
     font-family:"Nunito", Verdana, sans-serif;
     background-color:#dbb29a;
     margin-top:20px;
+    
 }
 .forecast h2{
     margin:0;
@@ -176,6 +180,7 @@ main h1 {
    align-items: center;
    position:relative;
    border:dotted 2px white; 
+   padding-bottom:2%;
 }
 
 .googlemaps {
@@ -191,6 +196,7 @@ main h1 {
 }
 .contactinfo {
     text-align: center;
+    font-family:"Nunito", "Verdana", sans-serif;
 }
 
 .footer-bar {
@@ -202,20 +208,20 @@ main h1 {
     text-align: center;
     margin:0;
     border:dotted 2px white;
+    font-family:"Nunito", "Verdana", sans-serif;
 }
 
 .social img {
     width:50px;
     padding:5px;
-    
    }
    .googlemaps {
        background-color:#d4ebeb;
        width:100%;
    }
    footer a {
-       font-family:Georgia, 'Times New Roman', Times, serif;
-       color: black;
+    font-family:"Nunito", "Verdana", sans-serif;
+    color: black;
    }
    .maps {
     width:200px;
@@ -354,4 +360,68 @@ textarea {
     width: 100%;
     max-width: 20rem;
     height: 10rem;
+}
+.otherrentalinfo{
+  padding-bottom:2%;
+  padding-top:2%;
+  width:100%;
+  background-color:#dbb29a;
+}
+.otherrentalinfo ul{
+    padding-left:12%;
+    font-family:"Poppins", "Tahoma", sans-serif;
+  font-size: 1em;
+  line-height: 2em;
+    
+}
+
+.terms {
+    margin-left:12%;
+    font-family: "Nunito", "Verdana", sans-serif;
+    font-size:1em;
+}
+
+.tourcontainer h2{
+    font-family:"Poppins", "Tahoma", sans-serif;
+    font-size: 2em;
+}
+
+.tourcontainer p {
+    font-family: "Nunito", "Verdana", sans-serif;
+    font-size:1em;
+}
+
+.tour1{
+border:#555 dotted 2px;
+margin:2% 8%;
+padding:20px;
+}
+.tour2{
+    border:#555 dotted 2px;
+    margin:2% 8%;
+    padding:20px;
+}
+
+.tourphotoleft img{
+    width:100%;
+    max-width: 400px;
+    box-shadow:2px 2px 2px 0px gray; 
+   
+}
+.tourphotoleft{
+    margin:0;
+    float:left;
+    padding:20px; 
+    width:40%;
+}
+.tourphotoright img{
+    width:100%;
+    max-width: 400px;
+    box-shadow:2px 2px 2px 0px gray; 
+}
+.tourphotoright{
+    margin:0;
+    float:right;
+    padding:20px; 
+    width:40%;  
 }
