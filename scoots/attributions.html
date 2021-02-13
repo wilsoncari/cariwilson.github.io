@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Scoots Rental Company">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/small.css">
+  <link rel="stylesheet" href="css/medium.css">
+  <link rel="stylesheet" href="css/large.css">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+
+  <title>Scoots Attributions</title>
+</head>
+<body>
+<header class="header">
+    <div class="companyname">
+        <h1>SCOOTS RENTAL CO.</h1>
+        <h2>Cozumel, Mexico</h2>
+      </div>
+    <img class="logo" src="images/scootslogo.png" alt="Scoots logo">
+    
+  </header>
+  
+  <nav class="clearfix">
+    <button onclick="toggleMenu()">&#9776;</button>
+    <ul id="primaryNav" class="hide">
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a  href="rentals.html">Rentals</a></li>
+        <li ><a  href="reservations.html">Reservations</a></li>
+        <li><a href="tours.html">Tours</a></li>    
+        <li><a href="contact.html">Contact</a></li>    
+    </ul>
+  </nav> 
+    <main>
+      <picture >
+        <source srcset="images/cozumelmedium.jpg" media="(min-width:640px) and (max-width:1023px)">
+        <source srcset="images/cozumellarge.jpg" media="(min-width:1024px)">
+        <img class="hero-image" src="images/cozumelsmall.jpg"  alt="Beach in Cozumel Mexico">
+      </picture>
+<div class="ride">
+  <h1>A big thanks to the people and companies who made this site possible!</h1><br><br>
+  <h2>Here they are!</h2>
+  
+  <ul> 
+    <li><a href="https://www.tripadvisor.com/Attraction_Review-g150809-d9705743-Reviews-Pipian_Scooter_Rental-Cozumel_Yucatan_Peninsula.htmlTrip Advisor">Trip Advisor</a></li>
+   <li><a href="https://hawaiimoped.com">Hawaii Moped</a></li>
+   <li><a href="google.com/images">Google/images</a></li>
+     <li><a href="https://pinterest.com">Pinterest</a></li>
+       <li><a href="https://en.wikipedia.org/wiki/Tulum">Wikipedia</a></li>
+         <li><a href="https://www.tripadvisor.com/LocationPhotoDirectLink-g150809-d154091-i182429643-The_Plaza-Cozumel_Yucatan_Peninsula.html">Trip Advisor</a></li>
+           <li><a href="cozumelsnorkel.com">Cozumel snorkeling</a></li>
+             <li><a href="https://mix.rent/card/47879">Honda scooter</a></li>
+ </ul>
+ </div>
+ </main>
+ <footer class="footer">
+ 
+  <div class="footer-main">
+      
+  <div class="contact">
+  <p class="contactinfo">
+    Contact Us<br>
+    Email: scoots@email.com<br>
+    Phone: (222)222-2222
+  </p>
+  <div class="social">
+    <a href="https://www.facebook.com/" target="blank">
+      <img src="images/facebook-logo.png" alt="facebook logo">
+    </a>
+      <a href="https://www.instagram.com/?hl=en" target="blank">
+      <img src="images/instagram-logo.png" alt="instagram logo">
+    </a>
+     <a href="https://www.pinterest.com" target="blank">
+     <img  src="images/pinterest-logo.png" alt="pinterest logo"></a>
+    </div>
+  </div>
+    <div class="footer-bar">
+      <p class="copyright">&copy; <span id="copyrightyear"></span> Scoots | Cozumel, Mexico | Cari Wilson | <a href="attributions.html">attributions</a></p>
+      <p id="date"></p>
+    </div>
+</div>
+   
+</footer>
+<script src="data/scoots.js"></script>
+</body>
+</html>
