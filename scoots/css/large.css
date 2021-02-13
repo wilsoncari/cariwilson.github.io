@@ -63,6 +63,17 @@ nav ul li {
     font-size: 2em;
 }
 
-
+.tourphotoright{
+    margin:0;
+    float:right;
+    padding:20px; 
+    width:40%;  
+}
+.tourphotoleft{
+    margin:0;
+    float:left;
+    padding:20px; 
+    width:40%;
+}
 
 }

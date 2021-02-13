@@ -57,11 +57,11 @@
     </div>
    
       <div class="ride">
-        <form method="get" action="thanks.html">
+        <form>
             <h1>Reserve Your Ride Now!</h1>
             <fieldset>
             <legend>Rental Information</legend>
-            <label class="top">Rental Date<input type="date" name="rentaldate" placeholder="01/02/2021"></label>
+            <label class="top">Rental Date<input type="date" name="rentaldate" ></label>
             <label class="top">Rental Type:
               <input list="rentaltype" name="rentaltype">
               <datalist id="rentaltype">
@@ -84,7 +84,8 @@
             </datalist>
             </label>
             </fieldset>
-            
+            </form>
+            <form>
             <fieldset class="infoinput">
                 <legend>Contact Information</legend>
                 <label  class="top">Full Name* <input  type="text" name="fullname" pattern="([a-zA-Z\s]){5,}" placeholder="John Doe" required></label>
@@ -95,17 +96,17 @@
                 <label  class="top">State* <input type="text" name="State" placeholder="New York" required></label>
                 <label  class="top">Zip Code* <input type="text" pattern="(\d{5}([\-]\d{4})?)" placeholder="32323" required ></label>
             </fieldset>
-            
+            </form>
+            <form method="get" action="thanks.html"></form>
+            <form>
             <fieldset>
                 <legend>Additional Information</legend>
                 <label  class="top">Comments:</label> 
                 <label class="top"><textarea name="comments"></textarea></label>
               </fieldset>
-          
               <input type="submit" name="submit" value="Reserve Now" class="submitform">
-            </div>
-        </form>
-           
+            </form>
+        </div>
     </main>
 
 <footer class="footer">
