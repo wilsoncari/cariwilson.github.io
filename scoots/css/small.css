@@ -429,3 +429,19 @@ padding:20px;
      max-width:300px;
      max-height:300px;
  }
+ .contactpar{
+     font-size:1.5em;
+     text-align: center;
+ }
+ .contactsubmit {
+    border:none;
+    background-color:rgb(216, 105, 62);
+    color:#EEEdE7;
+    border-radius: 1rem;
+     padding:10px;
+     margin-bottom:20px;
+     margin-top:20px;
+ }
+ .contactform {
+     margin:0 8% 0 8%;
+ }
