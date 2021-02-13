@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Scoots Rental Company">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/small.css">
+  <link rel="stylesheet" href="css/medium.css">
+  <link rel="stylesheet" href="css/large.css">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+
+  <title>Scoots-Rentals</title>
+</head>
+<body>
+<header class="header">
+    <div class="companyname">
+        <h1>SCOOTS RENTAL CO.</h1>
+        <h2>Cozumel, Mexico</h2>
+      </div>
+    <img class="logo" src="images/scootslogo.png" alt="Scoots logo">
+    
+  </header>
+
+    <nav class="clearfix">
+      <button onclick="toggleMenu()">&#9776;</button>
+      <ul id="primaryNav" class="hide">
+          <li><a  href="index.html">Home</a></li>
+          <li><a  href="rentals.html">Rentals</a></li>
+          <li ><a  href="reservations.html">Reservations</a></li>
+          <li><a href="tours.html">Tours</a></li>    
+          <li><a class="active" href="contact.html">Contact</a></li>    
+      </ul>
+    </nav> 
+    <main>
+      <picture >
+        <source srcset="images/contactmedium.jpg" media="(min-width:640px) and (max-width:1023px)">
+        <source srcset="images/contactlarge.jpg" media="(min-width:1024px)">
+        <img class="hero-image" src="images/contactsmall.jpg"  alt="Beach in Cozumel Mexico">
+      </picture>
+
+    
+      <h1>-Two Great Locations-</h1>
+      <div class="location1">
+    <p class="location1">5th Avenue<br>Playa del Carmen-Cozumel<br>Near the ferry dock<br> in el Centro de Cozumel<br>Phone: (555)255-1234 </p>
+    <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3736.865569504089!2d-86.95262820011072!3d20.51173636053675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sPlaya%20del%20Carmen-Cozumel%20Ferry%20dock%20in%20el%20Centro%20de%20Cozumel!5e0!3m2!1sen!2sus!4v1612828499423!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+       </div>
+    <div class="location2">
+    <p class=location2><br>251 Cinco De Mayo Drive<br>Puerta Maya, Mexico<br>(Near the cruise line terminal)<br>Phone:(555)256-1234 </p>
+    <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3737.7426682855694!2d-86.97723555011132!3d20.475759811735998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sTerminal%20Puerta%20Maya%20f!5e0!3m2!1sen!2sus!4v1612829065790!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+        
+</main>
+
+<footer class="footer">
+  <div class="footer-main">
+    <div class="contact">
+            <p class="contactinfo">
+            Contact Us<br>
+            Email: scoots@email.com<br>
+            Phone: (222)222-2222
+            </p>
+        <div class="social">
+            <a href="https://www.facebook.com/" target="blank">
+            <img src="images/facebook-logo.png" alt="facebook logo">
+            </a>
+            <a href="https://www.instagram.com/?hl=en" target="blank">
+            <img src="images/instagram-logo.png" alt="instagram logo">
+            </a>
+            <a href="https://www.pinterest.com" target="blank">
+            <img  src="images/pinterest-logo.png" alt="pinterest logo">
+            </a>
+        </div>
+    </div>
+      <div class="footer-bar">
+        <p class="copyright">&copy; <span id="copyrightyear"></span> Scoots | Cozumel, Mexico | Cari Wilson | <a href="attributions.html">attributions</a></p>    </p>
+        <p id="date"></p>  
+    </div>
+  </div>
+     
+  </footer>
+<script src="data/scoots.js"></script>
+</body>
+</html>
+
